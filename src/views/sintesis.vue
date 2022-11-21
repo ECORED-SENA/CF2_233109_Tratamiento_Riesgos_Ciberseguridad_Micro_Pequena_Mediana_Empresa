@@ -3,15 +3,19 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p Como hemos podido ver en el presente componente formativo, el ejercicio de evaluación de los riesgos que pueden afectar a los activos en las organizaciones requiere de análisis y valoraciones ajustadas a cada organización en particular, debido a que deben ser evaluados todos los aspectos y particularidades que permiten establecer la importancia y peso de sus activos, así mismo obedece a su sector económico y las condiciones en donde administre información crítica y/o confidencial.
 
-    .row.justify-content-center
+    .cajon.color-secundario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;")
+      p.mb-0(data-aos="fade-up") La importancia de adoptar metodologías y técnicas para estos procesos de evaluación del riesgo nos permite mantener una línea estándar para el desarrollo de las actividades y revisión de manera sistémica, así como la revisión periódica para su mejoramiento.
+
+    p.mt-5(data-aos="fade-up") Así mismo, hemos visto como la identificación de las salvaguardas adecuadas para la gestión de estos riesgos, tomando como referentes normas internacionales, normas técnicas y buenas prácticas, permite mantener un nivel mínimo aceptable para afrontar los diferentes problemas que presentan las organizaciones.
+
+    .row.justify-content-center.mt-5
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

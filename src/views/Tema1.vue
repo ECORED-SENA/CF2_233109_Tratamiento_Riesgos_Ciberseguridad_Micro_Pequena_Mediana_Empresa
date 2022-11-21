@@ -5,8 +5,98 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
-      
+      h1 Gestión del riesgo informático
+
+    figure
+      img(src="@/assets/curso/tema1/1.png" data-aos="zoom-in-up")
+
+    p.mt-5(data-aos="fade-up") La gestión del riesgo informático se consolida como una práctica que busca a partir de metodologías, identificar oportunamente posibles vulnerabilidades que puedan ser aprovechadas mediante amenazas y evitar que se conviertan en un riesgo y mejor aún, que no se materialicen, evitando incidentes que conlleven a situaciones críticas; esta estrategia ayudar a determinar de manera preventiva cualquiera de estas situaciones y permite identificar los controles y salvaguardas necesarias para hacer frente y evitar que estas situaciones sucedan en las organizaciones.
+
+    Separador.mt-5
+
+    .cont_1_1.pt-5.pb-5.mt-5(style="position:relative;")
+      .titulo-segundo(style="position:relative")
+        h2#t_1_1 1.1  Objetivo, características y beneficios
+
+      p(data-aos="fade-up" style="position:relative") La gestión del riesgo se consolida como un proceso que permite identificar, evaluar y proponer estrategias para enfrentar los riesgos que pueden presentarse ante un activo de información.
+      p.mt-4(data-aos="fade-up" style="position:relative") Los objetivos, características y beneficios, son:
+
+      .row.mt-5.indicador__container(style="position:relative")
+        .col-xl-4.mb-5.mb-xl-0(style="position:relative")
+          figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
+            .indicador--hover(v-if="indicadorTarjetas")
+            img(src="@/assets/curso/tema1/3.png")
+            .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
+              h5 #[i.fas.fa-angle-up.me-2(style="background-color:#fff;padding:.5rem .8rem;border-radius:100%;")] Objetivos
+              ul.lista-ul
+                li 
+                  i.lista-ul__vineta
+                  | Reconocer los tipos de riesgos que pueden afectar las operaciones   en una organización.
+                li 
+                  i.lista-ul__vineta
+                  | Evaluar y controlar los riesgos, a partir de la aplicación de salvaguardar.
+        .col-xl-4.mb-5.mb-xl-0
+          figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
+            img(src="@/assets/curso/tema1/4.png")
+            .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
+              h5 #[i.fas.fa-angle-up.me-2(style="background-color:#fff;padding:.5rem .8rem;border-radius:100%;")] Características
+              ul.lista-ul
+                li 
+                  i.lista-ul__vineta
+                  | La gestión del riesgo, debe ser un proceso continuo, nunca termina ni se interrumpe. 
+                li 
+                  i.lista-ul__vineta
+                  | Aplica métodos para la atención de los riesgos identificados.
+                li 
+                  i.lista-ul__vineta
+                  | Debe ser incorporado dentro de la cultura organizacional.
+        .col-xl-4.mb-5.mb-xl-0
+          figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
+            img(src="@/assets/curso/tema1/5.png")
+            .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
+              h5 #[i.fas.fa-angle-up.me-2(style="background-color:#fff;padding:.5rem .8rem;border-radius:100%;")] Beneficios
+              ul.lista-ul
+                li
+                  i.lista-ul__vineta
+                  | Optimización del proceso de toma de decisiones.
+                li
+                  i.lista-ul__vineta
+                  | Ofrece una visión integrada del negocio.
+                li
+                  i.lista-ul__vineta
+                  | Permite aprovechar los recursos.
+                li
+                  i.lista-ul__vineta
+                  | Reduce los imprevistos causados por incidentes.
+                li 
+                  i.lista-ul__vineta
+                  | Permite fortalecer los sistemas de control.
+
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_1_2 1.2  Etapas
+
+    p(data-aos="fade-up") La gestión del riesgo, de acuerdo a las normas específicas como son ISO 31000 o Magerit, establecen etapas que permiten abordar sus métodos para realizar una adecuada gestión del riesgo en las organizaciones a partir de 4 principales etapas. Estas etapas generales, permiten realizar un ejercicio dentro de las organizaciones, que buscan de manera sistemática y organizada, establecer la siguiente ruta:
+
+    figure.mt-5.col-lg-10.m-auto.d-none.d-lg-block
+      img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up")
+
+    .d-block.d-lg-none.mt-5
+      figure
+        img(src="@/assets/curso/tema1/7.svg" data-aos="zoom-in-up")
+      figure.mt-4
+        img(src="@/assets/curso/tema1/8.svg" data-aos="zoom-in-up")
+      figure.mt-4
+        img(src="@/assets/curso/tema1/9.svg" data-aos="zoom-in-up")
+      figure.mt-4
+        img(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up")
+      figure.mt-4
+        img(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up")
+
+
+   
+
 </template>
 
 <script>
@@ -14,7 +104,9 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    indicadorTarjetaSlide: true,
+    indicadorTarjetaFlip: true,
+    indicadorTarjetas: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -26,5 +118,26 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.cont_1_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(../assets/curso/tema1/2.png)
+  background-repeat: no-repeat
+  background-size: cover
+.contenido__tarjetas
+  background-color: #C4FDDB
+  position: absolute
+  width: 100%
+  bottom: 0
+  transform: translateY(calc(100% - 50px))
+  transition: all .4s ease-out
+.container__tarjetas:hover .contenido__tarjetas
+  transform: translateY(0)
+.lista-ul__vineta:before
+  content: '- ' !important
+</style>
