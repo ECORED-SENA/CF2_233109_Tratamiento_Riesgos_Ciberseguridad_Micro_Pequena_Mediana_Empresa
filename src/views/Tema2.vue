@@ -113,7 +113,7 @@
 
     .mt-5.cont_2_1(style="position:relative;")
       .cajon.color-acento-contenido.p-4
-        p.mb-0(data-aos="fade-up") En una organización se deben de gestionar los activos de información de manera segura y responsable, por ello la norma nos recomienda que se cuente con políticas claras que apoyen el ejercicio de identificación y aseguramiento de los activos de la información, en la figura N.º 56 podremos encontrar los #[strong objetivos] de control para la determinación de estas políticas].
+        p.mb-0(data-aos="fade-up") En una organización se deben de gestionar los activos de información de manera segura y responsable, por ello la norma nos recomienda que se cuente con políticas claras que apoyen el ejercicio de identificación y aseguramiento de los activos de la información, en la figura N.º 56 podremos encontrar los #[strong objetivos] de control para la determinación de estas políticas.
 
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")

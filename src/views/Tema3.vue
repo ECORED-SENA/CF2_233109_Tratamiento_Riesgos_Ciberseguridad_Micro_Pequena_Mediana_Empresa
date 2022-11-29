@@ -21,6 +21,8 @@
           img.d-block.d-lg-none(src="@/assets/curso/tema3/4.svg" data-aos="zoom-in-up")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. adaptado de MAGERIT– versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información
 
+    p.mt-5(data-aos="fade-up") Las propuestas normativas buscan identificar el nivel de vulnerabilidad de los activos de información, siendo Magerit preferida por su sencillez y su objetividad en el momento de su aplicación para la evaluación del riesgo. A continuación se exponen los objetivos de MAGERIT.
+
     .row.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;border-top-right-radius:140px;")
       .col-xl-4.col-lg-5.p-0
         figure(style="position:relative")
@@ -136,7 +138,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Errores en las aplicaciones
-            p Vulnerabilidades técnicas en programas, normalmente se presentan por errores de código, fallas en el diseño de software, problemas en la implementación o malas prácticas de configuración de activos.   
+            p Vulnerabilidades técnicas en programas, normalmente se presentan por errores de código, fallas en el diseño de #[em software], problemas en la implementación o malas prácticas de configuración de activos.   
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/18.png')
@@ -317,7 +319,7 @@
 
     .cont_3_3.mt-5(style="position:relative")
       .titulo-segundo(style="position:relative")
-        h2#t_3_3 3.3  Determinación del Riesgo Potencial
+        h2#t_3_4 3.4  Determinación del Riesgo Potencial
       p(data-aos="fade-up" style="position:relative") El riesgo potencial, se le llama a la medida del daño probable sobre un sistema, teniendo en cuenta el impacto de las amenazas de cada uno de los activos, este riesgo crece con el impacto y la probabilidad, estableciendo las zonas de riesgo como se determinan a continuación:
 
       .row.mt-5(style="position:relative")
@@ -375,7 +377,7 @@
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
         p(data-aos="fade-up") Este riesgo se debe calcular en cada activo amenaza y dimensión de seguridad, convirtiéndose en una función del valor acumulado, la degradación causada y la probabilidad de ocurrencia de la amenaza.
-        p.mt-4(data-aos="fade-up") Cuando se calcula sobre los activos base de la información, permite identificar las salvaguardas necesarias para aplicar en los entornos de trabajo: endurecimiento de equipos, backup, etc.
+        p.mt-4(data-aos="fade-up") Cuando se calcula sobre los activos base de la información, permite identificar las salvaguardas necesarias para aplicar en los entornos de trabajo: endurecimiento de equipos, #[em backup], etc.
       .col-lg-4(style="place-self:center")
         figure
           img(src="@/assets/curso/tema3/32.png" data-aos="fade-left")
@@ -416,7 +418,7 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_3_4 3.4  Establecimiento de salvaguardas
+      h2#t_3_5 3.5 Establecimiento de salvaguardas
 
     p(data-aos="fade-up") A partir de este punto se procede a determinar los controles que serán necesarios para reducir el riesgo, las amenazas, algunas amenazas pueden ser controladas a partir de cambios y acciones de gestión sobre algún activo, pero en otras ocasiones, estas deberán de intervenir a partir de controles técnicos tecnológicos o procedimentales.
     p.mt-4(data-aos="fade-up") Describimos las acciones que se deben aplicar para reducir el riesgo informático:
@@ -444,7 +446,7 @@
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [PR] Prevención
                 td.p-4(style="border:0") 
                   p Salvaguardas preventivas que reducen las oportunidades de que un incidente ocurra. Si la salvaguarda falla y el incidente llega a ocurrir, los daños son los mismos.
-                  p.mt-4 Ejemplos: autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de software, pruebas en preproducción, segregación de tareas
+                  p.mt-4 Ejemplos: autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DR] Disuasión
                 td.p-4(style="border:0;")
