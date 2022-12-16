@@ -83,16 +83,47 @@
       img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up")
 
     .d-block.d-lg-none.mt-5
-      figure
+      figure.col-sm-8.col-10.m-auto
         img(src="@/assets/curso/tema1/7.svg" data-aos="zoom-in-up")
-      figure.mt-4
-        img(src="@/assets/curso/tema1/8.svg" data-aos="zoom-in-up")
-      figure.mt-4
-        img(src="@/assets/curso/tema1/9.svg" data-aos="zoom-in-up")
-      figure.mt-4
-        img(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up")
-      figure.mt-4
-        img(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up")
+      .row.mt-5(style="position:relative;z-index:2;")
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/tema1/12.svg")
+        .col-5.before1.ps-0.pt-3
+          h4.mb-0.text-center(data-aos="fade-up") Identificar
+          h1.mb-0(style="font-weight:400;font-size:6rem;" data-aos="fade-up") 01
+      .p-4.pt-5(style="background-color:#EAE7FC;position:relative;top: -65px;z-index:0;")
+        p.mt-3(data-aos="fade-up") Se deben  reconocer cada uno de los activos de información para el desarrollo de sus actividades, para que, a partir de estos, se pueda identificar las fuentes de riesgo de manera particular a cada uno de los activos, este reconocimiento debe ser riguroso y debe permitir caracterizar el grado de importancia para la misma organización.
+      .row(style="position:relative;z-index:2;")
+        .col
+        .col-5.before2.pe-0.pt-3
+          h4.mb-0.text-center(data-aos="fade-up") Evaluar
+          h1.mb-0.text-end(style="font-weight:400;font-size:6rem;" data-aos="fade-up") 02
+        .col-auto.ps-0
+          figure
+            img(src="@/assets/curso/tema1/13.svg" style="z-index:2;position:relative;")
+      .p-4.pt-5(style="background-color:#D5CEF8;position:relative;top: -65px;z-index:0;")
+        p.mt-3(data-aos="fade-up") Se deben  reconocer cada uno de los activos de información para el desarrollo de sus actividades, para que, a partir de estos, se pueda identificar las fuentes de riesgo de manera particular a cada uno de los activos, este reconocimiento debe ser riguroso y debe permitir caracterizar el grado de importancia para la misma organización.
+      .row(style="position:relative;z-index:2;")
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/tema1/14.svg")
+        .col-5.before1.ps-0.pt-3
+          h4.mb-0.text-center(data-aos="fade-up") Reaccionar
+          h1.mb-0(style="font-weight:400;font-size:6rem;" data-aos="fade-up") 03
+      .p-4.pt-5(style="background-color:#EAE7FC;position:relative;top: -65px;z-index:0;")
+        p.mt-3(data-aos="fade-up") En esta etapa, se establecerán las acciones necesarias, para controlar el riesgo identificado, esto se deberá de plantear mediante un plan de acción, con unos recursos y tiempos establecidos, los cuales deberán ser alcanzables y medibles por la organización.
+      .row(style="position:relative;z-index:2;")
+        .col
+        .col-5.before2.pe-0.pt-3
+          h4.mb-0.text-center(data-aos="fade-up") Controlar
+          h1.mb-0.text-end(style="font-weight:400;font-size:6rem;" data-aos="fade-up") 04
+        .col-auto.ps-0
+          figure
+            img(src="@/assets/curso/tema1/13.svg" style="z-index:2;position:relative;")
+      .p-4.pt-5(style="background-color:#D5CEF8;position:relative;top: -65px;z-index:0;")
+        p.mt-3(data-aos="fade-up") Esta etapa conlleva a realizar seguimiento y evaluación de los riesgos, de tal manera que permita identificar el nivel de control que se realiza sobre los mismos, a su vez, permitirá evaluar la efectividad de los controles propuestos con el fin de mejorar o reemplazar los controles establecidos.
+
 
 
    
@@ -138,6 +169,25 @@ export default {
   transition: all .4s ease-out
 .container__tarjetas:hover .contenido__tarjetas
   transform: translateY(0)
+.container__tarjetas:hover
+  overflow: revert !important
 .lista-ul__vineta:before
   content: '- ' !important
+.before1 *,.before1,.before2 *,.before2
+  position: relative
+.before1:before
+  content: ''
+  position: absolute
+  width: 100%
+  height: 60%
+  top: 0
+  background-color: #BDEBF2
+.before2:before
+  content: ''
+  position: absolute
+  width: 100%
+  height: 60%
+  top: 0
+  background-color: #BDEBF2
+  z-index: 0
 </style>

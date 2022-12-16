@@ -75,4 +75,6 @@ export default {
   background-color: #583AE2 !important
 .bloque-texto-g.color-secundario
   background-color: #583AE2 !important
+.banner-principal__row
+  justify-content: space-between !important
 </style>

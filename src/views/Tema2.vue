@@ -43,7 +43,7 @@
               h3.mb-1.text-white Figura 1
               p.text-white Dominios de seguridad de la norma ISO/IEC 27001:2013.  
             .col-sm-auto
-              a.boton.color-acento-botones(:href="require('@/assets/curso/tema2/3.svg')" target="_blank" download="")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/ISO_IEC_27001_2013.pdf')" target="_blank" download="")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -428,4 +428,6 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+.tabla-a table
+  min-width: 1000px
 </style>

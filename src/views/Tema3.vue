@@ -262,7 +262,7 @@
     p.mt-4(data-aos="fade-up") Teniendo en cuenta lo anterior sobre la medida del daño se establece el impacto de la siguiente manera:
 
     .row.mt-5.pt-5.pb-5.pe-5(style="background-color:#E3E5FB;")
-      .col-xl-4.col-lg-5.ps-0
+      .col-xl-4.col-lg-5.ps-0.d-none.d-lg-block
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/24.png" data-aos="fade-right")
       .col-xl-8.col-lg-7(style="place-self:center;")
@@ -393,7 +393,7 @@
     p.mt-4(data-aos="fade-up") Este riesgo, permite determinar las consecuencias de las incidencias técnicas sobre la finalidad del sistema de información. Ya que se consolida como un recurso gerencial que permite la toma de decisiones críticas de un análisis de riesgos.
 
     .row.mt-5.pt-0.pb-4.pe-5.col-xl-10.m-auto(style="background-color:#D5CEF8;border-radius:30px;")
-      .col-xl-4.col-lg-5.ps-0
+      .col-xl-4.col-lg-5.ps-0.col-sm-6.col-10.mb-4.mb-lg-0
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/33.png" data-aos="fade-right")
       .col-xl-8.col-lg-7(style="place-self:center;")
@@ -523,7 +523,7 @@
         .col-xl-5.col-lg-6.ps-0
           figure(style="position:relative")
             img(src="@/assets/curso/tema3/37.png" data-aos="fade-right")
-        .col-xl-7.col-lg-6(style="place-self:center;")
+        .col-xl-7.col-lg-6.p-5.p-md-0(style="place-self:center;")
           p(data-aos="fade-up") #[strong Desde el punto de vista técnico.]
           ul.lista-ul.mt-2
             li.mb-0(data-aos="fade-up")
@@ -599,13 +599,13 @@
       .col-lg-10.col-md-8.mb-4.mb-md-0(style="place-self:center")
         p.mb-0(data-aos="fade-up") Su cálculo es determinado a partir de la premisa de que un activo no ha sufrido cambio ni degradación, y que las salvaguardas implementadas han actuado de manera positiva evitando la consolidación de algún tipo de incidente.
       .col-lg-2.col-md-4.pe-0(style="place-self:center")
-        figure
+        figure.figura_3_1
           img(src="@/assets/curso/tema3/38.svg" data-aos="fade-left" style="position:relative;right:-50%;max-width:100px;")
 
     p.mt-5.text-center(data-aos="fade-up") El impacto residual puede calcularse a partir de los activos inferiores, o repercutido sobre los activos superiores.
 
     .row.mt-4.pt-4.pb-0.pe-5(style="background-color:#EAE6FB;")
-      .col-xl-4.col-lg-5.ps-0
+      .col-xl-4.col-lg-5.ps-0.col-sm-7.col-8
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/39.png" data-aos="fade-right")
       .col-xl-8.col-lg-7(style="place-self:center;")
@@ -714,4 +714,11 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+@media screen and (max-width: 720px)
+  .figura_3_1
+    margin: 0 auto
+    text-align: center
+  .figura_3_1 img
+    right: 0% !important
+    display: inline
 </style>
