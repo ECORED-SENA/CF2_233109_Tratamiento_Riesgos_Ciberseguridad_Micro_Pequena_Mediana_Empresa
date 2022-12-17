@@ -56,7 +56,7 @@
     .cont_3_2.mt-5(style="position:relative")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/sAyLsjxgIrc" title="Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row.mt-5.col-lg-10.m-auto
         .col-lg-8.mb-4.mb-lg-0(style="place-self:center;position:relative")
           p(data-aos="fade-up") El procedimiento de análisis de riesgos se puede desarrollar en cualquier tipo de organización que desarrolle sus funciones apoyado en sistemas de información y comunicaciones, independiente del sector bien sea público o privado, y se recomienda realizarlo con mayor razón cuando se manejan datos confidenciales.
@@ -66,7 +66,7 @@
             img(src="@/assets/curso/tema3/8.png" data-aos="fade-left")
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/xN6gIERrcTU" title="Procedimiento de Análisis de Riesgos -Pasos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador.mt-5
 
