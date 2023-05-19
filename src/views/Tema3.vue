@@ -19,7 +19,7 @@
         figure
           img.d-none.d-lg-block(src="@/assets/curso/tema3/3.svg" data-aos="zoom-in-up")
           img.d-block.d-lg-none(src="@/assets/curso/tema3/4.svg" data-aos="zoom-in-up")
-        figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. adaptado de MAGERIT– versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información
+        figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptado de MAGERIT - versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información.
 
     p.mt-5(data-aos="fade-up") Las propuestas normativas buscan identificar el nivel de vulnerabilidad de los activos de información, siendo Magerit preferida por su sencillez y su objetividad en el momento de su aplicación para la evaluación del riesgo. A continuación se exponen los objetivos de MAGERIT.
 
@@ -33,13 +33,13 @@
           ul.lista-ul.mt-4
             li.mb-0(data-aos="fade-up")
               i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-              | Busca con su aplicación mejorar la concienciación de la existencia de riesgos. 
+              | Busca con su aplicación mejorar la concienciación de la existencia de riesgos.
             li.mb-0(data-aos="fade-up")
               i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
               | Importancia de realizar una adecuada gestión.
             li.mb-0(data-aos="fade-up")
               i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-              | Ofrece un modelo su análisis. 
+              | Ofrece un modelo su análisis.
             li.mb-0(data-aos="fade-up")
               i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
               | Determinar las rutas para su gestión.
@@ -81,7 +81,7 @@
         img.d-none.d-lg-block(src="@/assets/curso/tema3/9.svg" data-aos="zoom-in-up")
         img.d-block.d-lg-none(src="@/assets/curso/tema3/10.svg" data-aos="zoom-in-up")
 
-    p.mt-5(data-aos="fade-up") Se establecen las escalas de medición cualitativa y cuantitativa a continuación se exponen:
+    p.mt-5(data-aos="fade-up") También se establecen las escalas de medición cualitativa y cuantitativa, las cuales se exponen a continuación:
 
     .row.mt-5
       .col-lg-6.p-0
@@ -99,7 +99,7 @@
                 img(src="@/assets/curso/tema3/12.png" data-aos="zoom-in-up" style="max-width:180px;display:inline;")
             p.text-white.mt-5(data-aos="fade-up") #[strong Valoración cuantitativa:] estas valoraciones, se presentan en escalas numéricas absolutas las cuales son algo complejas de identificar; pero permiten establecer operaciones matemáticas para sus evaluaciones.
 
-    p.mt-5(data-aos="fade-up") Un último elemento a tener presente en la caracterización de los activos es valor de la interrupción del servicio, ya que esta valoración se diferencia de las anteriores porque afecta directamente la disponibilidad, y se requiere determinar el costo de tener por fuera de servicio por un determinado tiempo, esta valoración se debe establecer en una línea de tiempo que permita identificar claramente las consecuencias de no contar con un sistema de información disponible y su impacto para la organización, por lo general se presentan en gráficos como el que se presenta en la figura No. 20 a continuación:
+    p.mt-5(data-aos="fade-up") Un último elemento a tener presente en la caracterización de los activos es el valor de la interrupción del servicio, debido a que esta valoración se diferencia de las anteriores porque afecta directamente la disponibilidad, y se requiere determinar el costo de tenerlo por fuera de servicio por un determinado tiempo; esta valoración se debe establecer en una línea de tiempo que permita identificar claramente las consecuencias de no contar con un sistema de información disponible y su impacto para la organización, por lo general se presentan en gráficos como el que se presenta en la figura a continuación:
 
     .col-lg-10.m-auto.mt-5(style="position:relative")
       .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
@@ -108,7 +108,7 @@
       figure
         img.d-none.d-lg-block(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up")
         img.d-block.d-lg-none(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up")
-      figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. https://cutt.ly/KB7x2kX 
+      figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. https://cutt.ly/KB7x2kX
 
       p.mt-5(data-aos="fade-up") Los anteriores criterios son necesarios para identificar y caracterizar cada uno de los activos de la organización, para continuar con la identificación de amenazas para cada uno de estos.
 
@@ -131,14 +131,14 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Industrial
-            p Generados por efectos resultantes o asociadas a eventos industriales; cualquier empresa con operaciones industriales digitalizadas es susceptible de ser atacada, las más afectadas son las proveedoras de electricidad, agua, petróleo y gas, las alimentarias y las farmacéuticas.   
+            p Generados por efectos resultantes o asociadas a eventos industriales; cualquier empresa con operaciones industriales digitalizadas es susceptible de ser atacada, las más afectadas son las proveedoras de electricidad, agua, petróleo y gas, las alimentarias y las farmacéuticas.
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/17.png')
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Errores en las aplicaciones
-            p Vulnerabilidades técnicas en programas, normalmente se presentan por errores de código, fallas en el diseño de #[em software], problemas en la implementación o malas prácticas de configuración de activos.   
+            p Vulnerabilidades técnicas en programas, normalmente se presentan por errores de código, fallas en el diseño de #[em software], problemas en la implementación o malas prácticas de configuración de activos.
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/18.png')
@@ -159,7 +159,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Identificación y tipificación de activos
-            p Una vez se haya realizado la identificación de las amenazas, se procede a realizar la valoración de las mismas, y se requiere identificar cual sería el efecto de influencia sobre el activo. 
+            p Una vez se haya realizado la identificación de las amenazas, se procede a realizar la valoración de las mismas, y se requiere identificar cual sería el efecto de influencia sobre el activo.
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/21.png')
@@ -258,7 +258,8 @@
     .titulo-segundo
       h2#t_3_3 3.3  Determinación del impacto potencial
 
-    p(data-aos="fade-up") El impacto potencial, se le llama a la medida del daño sobre un activo en particular, a partir de la materialización de una amenaza, este impacto se puede determinar una vez se haya establecido el valor de los activos y su degradación que causa dicha amenaza.
+    p(data-aos="fade-up") El impacto potencial, se le llama a la medida del daño sobre un activo en particular, a partir de la materialización de una amenaza, este impacto se puede determinar una vez se haya establecido el valor de los activos y la degradación que causa dicha amenaza.
+
     p.mt-4(data-aos="fade-up") Teniendo en cuenta lo anterior sobre la medida del daño se establece el impacto de la siguiente manera:
 
     .row.mt-5.pt-5.pb-5.pe-5(style="background-color:#E3E5FB;")
@@ -293,7 +294,7 @@
               | Las amenazas a las que se puede enfrentar un activo.
             li.mb-0(data-aos="fade-up")
               i.lista-ul__vineta
-              | Puede acumularse sobre activos que no sean dependientes entre sí, y no hereden valor de un activo superior. 
+              | Puede acumularse sobre activos que no sean dependientes entre sí, y no hereden valor de un activo superior.
             li.mb-0(data-aos="fade-up")
               i.lista-ul__vineta
               | No se recomienda agregar el impacto acumulado sobre activos que no sean independientes, dado que supondría ponderar el impacto al incluir varias veces el valor acumulado de activos superiores.
@@ -319,7 +320,7 @@
 
     .cont_3_3.mt-5(style="position:relative")
       .titulo-segundo(style="position:relative")
-        h2#t_3_4 3.4  Determinación del Riesgo Potencial
+        h2#t_3_4 3.4  Determinación del riesgo potencial
       p(data-aos="fade-up" style="position:relative") El riesgo potencial, se le llama a la medida del daño probable sobre un sistema, teniendo en cuenta el impacto de las amenazas de cada uno de los activos, este riesgo crece con el impacto y la probabilidad, estableciendo las zonas de riesgo como se determinan a continuación:
 
       .row.mt-5(style="position:relative")
@@ -390,7 +391,7 @@
         h4.text-white.mb-0(data-aos="fade-up") Riesgo repercutido
 
     p(data-aos="fade-up") Este riesgo repercutido se obtiene para activo, amenaza y dimensión de valoración, convirtiéndose en una función del valor propio, la degradación causada y la probabilidad de la amenaza.
-    p.mt-4(data-aos="fade-up") Este riesgo, permite determinar las consecuencias de las incidencias técnicas sobre la finalidad del sistema de información. Ya que se consolida como un recurso gerencial que permite la toma de decisiones críticas de un análisis de riesgos.
+    p.mt-4(data-aos="fade-up") Este riesgo permite determinar las consecuencias de las incidencias técnicas sobre la finalidad del sistema de información, debido a que se consolida como un recurso gerencial que permite la toma de decisiones críticas de un análisis de riesgos.
 
     .row.mt-5.pt-0.pb-4.pe-5.col-xl-10.m-auto(style="background-color:#D5CEF8;border-radius:30px;")
       .col-xl-4.col-lg-5.ps-0.col-sm-6.col-10.mb-4.mb-lg-0
@@ -420,12 +421,12 @@
     .titulo-segundo
       h2#t_3_5 3.5 Establecimiento de salvaguardas
 
-    p(data-aos="fade-up") A partir de este punto se procede a determinar los controles que serán necesarios para reducir el riesgo, las amenazas, algunas amenazas pueden ser controladas a partir de cambios y acciones de gestión sobre algún activo, pero en otras ocasiones, estas deberán de intervenir a partir de controles técnicos tecnológicos o procedimentales.
-    p.mt-4(data-aos="fade-up") Describimos las acciones que se deben aplicar para reducir el riesgo informático:
+    p(data-aos="fade-up") A partir de este punto se proceden a determinar los controles que serán necesarios para reducir el riesgo y las amenazas; algunas amenazas pueden ser controladas a partir de cambios y acciones de gestión sobre algún activo, pero en otras ocasiones, estas deberán de intervenir a partir de controles técnicos tecnológicos o procedimentales.
+    p.mt-4(data-aos="fade-up") A continuación, se describen las acciones que se deben aplicar para reducir el riesgo informático:
 
     figure
-      img.d-none.d-lg-block(src="@/assets/curso/tema3/34.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema3/35.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema3/34b.svg" data-aos="zoom-in-up")
+      img.d-block.d-lg-none(src="@/assets/curso/tema3/35b.svg" data-aos="zoom-in-up")
 
     .cont_3_4.mt-5(style="position:relative")
       .col-lg-10.m-auto
@@ -444,9 +445,9 @@
             tbody
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [PR] Prevención
-                td.p-4(style="border:0") 
+                td.p-4(style="border:0")
                   p Salvaguardas preventivas que reducen las oportunidades de que un incidente ocurra. Si la salvaguarda falla y el incidente llega a ocurrir, los daños son los mismos.
-                  p.mt-4 Ejemplos: autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas
+                  p.mt-4 Ejemplos: autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DR] Disuasión
                 td.p-4(style="border:0;")
@@ -454,27 +455,27 @@
                   p.mt-4 Ejemplos: vallas elevadas, guardias de seguridad, avisos sobre la persecución del delito o persecución del delincuente.
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [EL] Eliminación
-                td.p-4(style="border:0") 
+                td.p-4(style="border:0")
                   p Son salvaguardas que eliminan un incidente, impidiendo que éste tenga lugar. Actúan antes de que el incidente se haya producido. No reducen los daños caso de que la salvaguarda no sea perfecta y el incidente llegue a ocurrir.
                   p.mt-4 Ejemplos: eliminación de cuentas estándar, de cuentas sin contraseña, de servicios innecesarios, … ; en general, todo lo que tenga que ver con la fortificación o bastionado, ..., cifrado de la información, ..., armarios ignífugos, …
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [IM] Minimización del impacto / limitación del impacto
                 td.p-4(style="border:0;")
                   p Salvaguarda que minimiza o limita el impacto acotando las consecuencias de un incidente.
-                  p.mt-4 Ejemplos: desconexión de redes o equipos en caso de ataque, detención de servicios en caso de ataque, seguros de cobertura, cumplimiento de la legislación vigente
+                  p.mt-4 Ejemplos: desconexión de redes o equipos en caso de ataque, detención de servicios en caso de ataque, seguros de cobertura, cumplimiento de la legislación vigente.
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [CR] Corrección
-                td.p-4(style="border:0") 
-                  p Salvaguarda que actúa después de un incidente, ejerciendo una reparación al activo. 
+                td.p-4(style="border:0")
+                  p Salvaguarda que actúa después de un incidente, ejerciendo una reparación al activo.
                   p.mt-4 Ejemplos: gestión de incidentes, líneas de comunicación alternativas, fuentes de alimentación redundantes, ...
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [RC] Recuperación
                 td.p-4(style="border:0;")
-                  p Salvaguarda que ofrece recuperación a un activo que ha sufrido una alteración, regresando al estado útil y viable, 
-                  p.mt-4 Ejemplos: copias de seguridad (back-up)
+                  p Salvaguarda que ofrece recuperación a un activo que ha sufrido una alteración, regresando al estado útil y viable,
+                  p.mt-4 Ejemplos: copias de seguridad (#[em back-up]).
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [MN] Monitorización
-                td.p-4(style="border:0") 
+                td.p-4(style="border:0")
                   p Salvaguardas enfocadas en la vigilancia y monitoreo de activos para identificar posibles cambios o alteraciones en el normal comportamiento de un activo de información.
                   p.mt-4 Ejemplos: registros de actividad, registro de descargas de web, ...
               tr(style="background-color:#D1F1F6;")
@@ -484,7 +485,7 @@
                   p.mt-4 Ejemplos: antivirus, IDS, detectores de incendio, ...
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [AW] Concienciación
-                td.p-4(style="border:0") 
+                td.p-4(style="border:0")
                   p Actividades relacionadas con la transferencia del conocimiento para la seguridad de todos los actores involucrados en la organización y que dependen de los activos de información.
                   p.mt-4 Ejemplos: cursos de concienciación, cursos de formación, ...
               tr(style="background-color:#D1F1F6;")
@@ -568,19 +569,19 @@
               td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") L0
               td.p-4.text-center(style="border:0") Inexistente
             tr(style="background-color:#fff;")
-              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") 
+              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;")
               td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") L1
               td.p-4.text-center(style="border:0;") Inicial / ad hoc
             tr(style="background-color:#D1F1F6;")
-              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") 
+              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;")
               td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") L2
               td.p-4.text-center(style="border:0") Reproducible, pero intuitivo
             tr(style="background-color:#fff;")
-              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") 
+              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;")
               td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") L3
               td.p-4.text-center(style="border:0;") Proceso definido
             tr(style="background-color:#D1F1F6;")
-              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") 
+              td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;")
               td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") L4
               td.p-4.text-center(style="border:0") Gestionado y medible
             tr(style="background-color:#fff;")
@@ -611,7 +612,7 @@
       .col-xl-8.col-lg-7(style="place-self:center;")
         p(data-aos="fade-up") #[strong Riesgo residual]
         p.mt-4(data-aos="fade-up") Este riesgo residual, es calculado a partir del conjunto de salvaguardas implementadas y que conllevan a que un activo no esté sujeto a una potencial alteración en su calidad por ende no ha sido degradado.
-        p.mt-4(data-aos="fade-up") El cálculo del riesgo residual se determina de la siguiente manera. 
+        p.mt-4(data-aos="fade-up") El cálculo del riesgo residual se determina de la siguiente manera.
         ul.lista-ul.mt-4
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
@@ -634,7 +635,7 @@
 
 
 
-   
+
 
 </template>
 

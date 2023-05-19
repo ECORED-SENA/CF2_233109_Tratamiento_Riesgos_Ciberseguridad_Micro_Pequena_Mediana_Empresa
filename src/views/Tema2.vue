@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La norma ISO/IEC 27001:2013, como norma fundamental para la implementación de sistemas de gestión de la seguridad de la información, nos propone en su Anexo A, una propuesta de controles bajo un esquema basada en dominios lo cuales, tienen enfoque desde lo operativo, lógico, físico y legal, que a partir de su implementación permite controlar las posibles vulnerabilidades que se presentan en las organizaciones.
+        p.mb-0 La norma ISO/IEC 27001:2013, como norma fundamental para la implementación de sistemas de gestión de la seguridad de la información, nos propone en su Anexo A, una propuesta de controles bajo un esquema basada en dominios, los cuales tienen enfoque desde lo operativo, lógico, físico y legal, que a partir de su implementación, permiten controlar las posibles vulnerabilidades que se presentan en las organizaciones.
 
     p.mt-5(data-aos="fade-up") Los controles de seguridad se recomiendan sean implementados a partir del análisis de riesgos, esto permitirá hacer frente de manera asertiva a las necesidades identificadas en cada uno de los activos de información.
 
@@ -41,7 +41,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1.text-white Figura 1
-              p.text-white Dominios de seguridad de la norma ISO/IEC 27001:2013.  
+              p.text-white Dominios de seguridad de la norma ISO/IEC 27001:2013.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('downloads/ISO_IEC_27001_2013.pdf')" target="_blank" download="")
                 span Descargar
@@ -103,7 +103,7 @@
         .titulo-sexto.color-acento-contenido.mb-0
           h5 Figura 4.
           span Ejemplo de controles de la norma ISO/IEC 27001:2013.
-        
+
         figure
           img.d-none.d-lg-block(src="@/assets/curso/tema2/11.svg" data-aos="zoom-in-up")
           img.d-block.d-lg-none(src="@/assets/curso/tema2/12.svg" data-aos="zoom-in-up")
@@ -113,7 +113,7 @@
 
     .mt-5.cont_2_1(style="position:relative;")
       .cajon.color-acento-contenido.p-4
-        p.mb-0(data-aos="fade-up") En una organización se deben de gestionar los activos de información de manera segura y responsable, por ello la norma nos recomienda que se cuente con políticas claras que apoyen el ejercicio de identificación y aseguramiento de los activos de la información, en la figura N.º 56 podremos encontrar los #[strong objetivos] de control para la determinación de estas políticas.
+        p.mb-0(data-aos="fade-up") En una organización se deben de gestionar los activos de información de manera segura y responsable, por ello la norma nos recomienda que se cuente con políticas claras que apoyen el ejercicio de identificación y aseguramiento de los activos de la información. En la siguiente figura, podremos encontrar los #[strong objetivos] de control para la determinación de estas políticas.
 
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
@@ -233,7 +233,7 @@
           figure
             img(src="@/assets/curso/tema2/36.svg" data-aos="fade-right")
         .col(style="place-self:center")
-          p.mb-0(data-aos="fade-up") Actualmente las organizaciones cuentan con departamentos o grupos encargados de desarrollar y mantener sus propias soluciones, en la figura No. 14, podemos encontrar controles que deben ser tenidos en cuenta este tipo de actividades.
+          p.mb-0(data-aos="fade-up") Actualmente, las organizaciones cuentan con departamentos o grupos encargados de desarrollar y mantener sus propias soluciones, en la figura No. 14, podemos encontrar controles que deben ser tenidos en cuenta en este tipo de actividades.
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 14.
@@ -243,7 +243,7 @@
           img.d-block.d-lg-none(src="@/assets/curso/tema2/39.svg" data-aos="zoom-in-up")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
-    p.mt-5(data-aos="fade-up") La relación con los proveedores de productos o servicios a la organización debe estar alineada con las políticas de seguridad y para este caso, en la figura No. 15 encontramos algunos controles sugeridos para asegurar un apropiado intercambio de información con sus proveedores.
+    p.mt-5(data-aos="fade-up") La relación con los proveedores de productos o servicios en la organización, debe estar alineada con las políticas de seguridad, y para este caso, en la figura No. 15 encontramos algunos controles sugeridos para asegurar un apropiado intercambio de información con sus proveedores.
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
@@ -267,7 +267,7 @@
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .mt-5.cont_2_5(style="position:relative;")
-      p(data-aos="fade-up" style="position:relative") Garantizar la continuidad del negocio es un factor importante tras sufrir un incidente, por ello se presentan en la figura No. 17 los siguientes controles que garanticen que la organización podrá recuperarse en un mínimo tiempo con una mínima pérdida de información.
+      p(data-aos="fade-up" style="position:relative") Garantizar la continuidad del negocio es un factor importante tras sufrir un incidente, por ello se presentan en la figura No. 17, los controles que garanticen que la organización podrá recuperarse en un mínimo tiempo, con una mínima pérdida de información.
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 17.
@@ -281,7 +281,7 @@
           figure
             img(src="@/assets/curso/tema2/47.svg" data-aos="fade-right")
         .col(style="place-self:center")
-          p.mb-0(data-aos="fade-up") Finalmente, el cumplimiento de los requisitos legales garantiza el actuar de la organización y evitan incurrir en alguna falta que afecte en un futuro la organización, por ello en la figura No 18 se presentan los controles de cumplimiento que buscan reducir los riesgos al incurrir es una falta relacionada.
+          p.mb-0(data-aos="fade-up") Finalmente, el cumplimiento de los requisitos legales garantiza el actuar de la organización, y evitan incurrir en alguna falta que afecte en un futuro la organización, por ello, en la figura No 18 se presentan los controles de cumplimiento que buscan reducir los riesgos al incurrir en una falta relacionada.
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 18.
@@ -298,7 +298,7 @@
     .titulo-segundo
       h2#t_2_2 2.2  Declaración de aplicabilidad
 
-    p(data-aos="fade-up") Esta Declaración de Aplicabilidad o también conocido como (Statement of Applicability SoA) es un instrumento el cual consolida la relación completa de controles sugeridos por la Norma ISO/IEC 27001:2013, para la implementación de estrategias de seguridad, y sirve para presentar el detalle de aquellos controles que serán adoptados por la organización.
+    p(data-aos="fade-up") Esta Declaración de Aplicabilidad o también conocido como Statement of Applicability (SoA), es un instrumento que consolida la relación completa de controles sugeridos por la Norma ISO/IEC 27001:2013, para la implementación de estrategias de seguridad, y sirve para presentar el detalle de aquellos controles que serán adoptados por la organización.
 
     .row.mt-5.pe-4.p-4.p-md-0(style="background-color:#D5CEF8")
       .col-lg-4.col-xl-3.col-md-6.mb-4.mb-md-0.p-0(style="place-self:center")
@@ -306,15 +306,15 @@
           img(src="@/assets/curso/tema2/50.svg" data-aos="fade-right")
       .col-xl-9.col-lg-8.col-md-6(style="place-self:center")
         p(data-aos="fade-up") Este documento es construido desde el ejercicio de análisis de riesgos, por lo que se considera un documento de referencia tanto para la implementación de controles, así como para la evaluación de la eficacia de los mismos a futuro.
-        p.mt-4.mb-0(data-aos="fade-up") En la tabla 1, podemos observar un ejemplo de documento de Declaración de Aplicabilidad, en donde se establece los controles, su aplicación, su justificación, responsable, así como el plan de acción a realizar para su implementación.
+        p.mt-4.mb-0(data-aos="fade-up") En la tabla 1, podemos observar un ejemplo de documento de Declaración de Aplicabilidad, en donde se establecen los controles, su aplicación, su justificación, responsable, así como el plan de acción a realizar para su implementación.
 
     .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
       h5 Tabla 1.
       span Ejemplo de documento de Declaración de Aplicabilidad SoA.
 
-    .tabla-a.color-acento-botones.mt-5 
+    .tabla-a.color-acento-botones.mt-5
       table
-        caption(style="background-color:#F6F6F6;font-weight:400;") Nota. https://cutt.ly/GB7xJM9 
+        caption(style="background-color:#F6F6F6;font-weight:400;") Nota. https://cutt.ly/GB7xJM9
         thead(style="border:0;")
           tr(style="background-color:#36257B;")
             th.p-2.text-white(style="border:0;font-size:17px;") N°
@@ -327,31 +327,31 @@
         tbody
           tr(style="background-color:#D1F1F6;")
             td.p-5(style="border:0;font-weight:bold;") A.5.1
-            td.p-5.ps-0(style="border:0" colspan="6") #[strong Orientación de la Dirección para la Gestión de la Seguridad de la información:] Brindar orientación y soporte, por parte de la Dirección, para la seguridad de la información de acuerdo con los requisitos del negocio y con las leyes y reglamentos pertinentes.
+            td.p-5.ps-0(style="border:0" colspan="6") #[strong Orientación de la Dirección para la Gestión de la Seguridad de la información:] brindar orientación y soporte, por parte de la Dirección, para la seguridad de la información de acuerdo con los requisitos del negocio y con las leyes y reglamentos pertinentes.
           tr(style="background-color:#fff;")
             td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") A.5.1.1
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Política para la seguridad de la información
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") La dirección debe aprobar, publicar y comunicar a todos los empleados y partes externas pertinentes, un documento de política de seguridad de la información. 
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Si
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Política para la seguridad de la información.
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") La dirección debe aprobar, publicar y comunicar a todos los empleados y partes externas pertinentes, un documento de política de seguridad de la información.
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Sí
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") El contar con la política de seguridad de la información de un punto de partida para la implementación en la organización.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Alta gerencia
             td.p-4(style="border:0;") La alta dirección de la Superintendencia de la sociedades aprobó la política de gestión integral y se ha comunicado a todos los funcionarios y las partes externas pertinentes a través de correo electrónico, intranet e internet.
           tr(style="background-color:#D1F1F6;")
             td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") A.5.1.2
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Revisión de las políticas para la seguridad de la información
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Revisión de las políticas para la seguridad de la información.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Se debe revisar la política de seguridad de la información a intervalos planificados, o si ocurren cambios significativos, para asegurar su conveniencia, suficiencia y eficacia continuas.
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Si
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Sí
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") De acuerdo al ciclo PHVA se debe programas periodos de evaluación de la política de seguridad de la información la cual permite implementar mejoras permanentes.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Alta gerencia
             td.p-4(style="border:0;") La alta dirección de la Superintendencia de la sociedad realiza a intervalos planificados la revisión al sistema de gestión integrado en el proceso de gestión estratégica donde las salidas reflejan cambios a la política de gestión integral.
 
     .col-lg-10.m-auto.mt-5
-      p.mb-0(data-aos="fade-up") Para el establecimiento de la declaración de aplicabilidad, en una organización, esta debe ser diligenciada en su totalidad, realizando el registro de todos y cada uno de los controles establecidos por la norma, indicando cuales serán aplicables en la organización y cuáles no y su razón de no aplicabilidad, así como la forma en que será aplicable hacia los activos de información, de esta manera permitirá a las partes interesadas identificar los controles que serán aplicados y evaluados.
-      
+      p.mb-0(data-aos="fade-up") Para el establecimiento de la declaración de aplicabilidad en una organización, esta debe ser diligenciada en su totalidad, realizando el registro de todos y cada uno de los controles establecidos por la norma, indicando cuáles serán aplicables en la organización, cuáles no y su razón de no aplicabilidad, así como la forma en que será aplicable hacia los activos de información, de esta manera permitirá a las partes interesadas identificar los controles que serán aplicados y evaluados.
 
 
 
-   
+
+
 
 </template>
 
