@@ -279,107 +279,246 @@ export default {
         'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6387',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo de Desarrollo Curricular',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Hernando José Peña Hidalgo',
-        cargo: 'Experto Temático',
-        centro:
-          'Centro de la Industria la Empresa y los Servicios - Norte de Santander',
-      },
-      {
-        nombre: 'Diego E. Acevedo Guevara',
-        cargo: 'Diseñador Instruccional',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Asesor Metodológico',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Corrección de estilo',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Oscar Palito',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Luis Jesús Pérez Madariaga',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Ernesto Navarro Jaimes',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Laura Gisselle Murcia Pardo',
-        cargo: 'Validación audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'María Carolina Tamayo López',
-        cargo: 'Locución',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Mary Jeans Palacio Camacho',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Revisión de guión audiovisual',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Melina Tatiana Quintero Rodriguez',
-        cargo: 'Validación de contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Líder del equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Jenny Patricia Torres Sarmiento',
+          cargo: 'Experta temática ',
+          centro: 'Regional Antioquía - Diseño, confección y moda',
+        },
+        {
+          nombre: 'Ericka Alexandra Blanco Sánchez',
+          cargo: 'Experta temática ',
+          centro: 'Regional Antioquía - Diseño, confección y moda',
+        },
+        {
+          nombre: 'María Camila Álvarez',
+          cargo: 'Contratista Diseño Curricular',
+          centro:
+            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Liliana María Ceballos Gutiérrez',
+          cargo:
+            'Contratista Asesora Metodóloga diseño y desarrollo curricular',
+          centro:
+            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí',
+        },
+        {
+          nombre: 'Pedro Luis Sossa Ramírez',
+          cargo: 'Contratista Diseño y desarrollo curricular',
+          centro:
+            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí',
+        },
+        {
+          nombre: 'Víctor Manuel Isaza Córdoba',
+          cargo: 'Contratista Diseño y desarrollo curricular',
+          centro:
+            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial. Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro:
+            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Revisión y corrección de estilo',
+          centro:
+            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Blanca Flor Tinoco',
+          cargo: 'Diseñador web',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Edward Leonardo Pico Cabra',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Animador y Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Validación de contenidos accesibles',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
+  // creditos: {
+  //   liderEquipo: [
+  //     {
+  //       nombre: 'Maria Camila Garcia Santamaria',
+  //       cargo: 'Líder del equipo',
+  //       centro: 'Dirección General',
+  //     },
+  //   ],
+  //   contenidoInstruccional: [
+  //     {
+  //       nombre: 'Rafael Neftalí Lizcano Reyes',
+  //       cargo: 'Responsable Equipo de Desarrollo Curricular',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Hernando José Peña Hidalgo',
+  //       cargo: 'Experto Temático',
+  //       centro:
+  //         'Centro de la Industria la Empresa y los Servicios - Norte de Santander',
+  //     },
+  //     {
+  //       nombre: 'Diego E. Acevedo Guevara',
+  //       cargo: 'Diseñador Instruccional',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Alix Cecilia Chinchilla Rueda',
+  //       cargo: 'Asesor Metodológico',
+  //       centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+  //     },
+  //     {
+  //       nombre: 'Sandra Patricia Hoyos Sepúlveda',
+  //       cargo: 'Corrección de estilo',
+  //       centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+  //     },
+  //   ],
+  //   desarrolloProducto: [
+  //     {
+  //       nombre: 'Francisco José Lizcano Reyes',
+  //       cargo: 'Responsable del equipo',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Oscar Palito',
+  //       cargo: 'Diseño web',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Luis Jesús Pérez Madariaga',
+  //       cargo: 'Desarrollo front-end',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Ernesto Navarro Jaimes',
+  //       cargo: 'Producción audiovisual',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Laura Gisselle Murcia Pardo',
+  //       cargo: 'Validación audiovisual',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'María Carolina Tamayo López',
+  //       cargo: 'Locución',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Mary Jeans Palacio Camacho',
+  //       cargo: 'Producción audiovisual',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //     {
+  //       nombre: 'Zuleidy María Ruíz Torres',
+  //       cargo: 'Revisión de guión audiovisual',
+  //       centro: 'Centro de Comercio y Servicios - Regional Tolima',
+  //     },
+  //     {
+  //       nombre: 'Melina Tatiana Quintero Rodriguez',
+  //       cargo: 'Validación de contenido',
+  //       centro:
+  //         'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+  //     },
+  //   ],
+  //   gestoresRepositorio: [
+  //     {
+  //       nombre: 'Milady Tatiana Villamil Castellanos',
+  //       cargo: 'Validación y vinculación en plataforma LMS',
+  //       centro: 'Centro de Comercio y Servicios - Regional Tolima',
+  //     },
+  //   ],
+  // },
   // creditosInicio: [
   //   {
   //     titulo: 'En alianza',
