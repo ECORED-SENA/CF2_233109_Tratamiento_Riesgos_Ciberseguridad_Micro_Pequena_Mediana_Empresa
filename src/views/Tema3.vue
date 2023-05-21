@@ -592,7 +592,7 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_3_5 3.5 Impacto residual
+      h2#t_3_6 3.6 Impacto residual
 
     p(data-aos="fade-up") De acuerdo al conjunto de salvaguardas determinadas y desplegadas y una medida de la madurez de su proceso de gestión, el sistema queda en una situación de posible impacto que debe ser mínimo, al cual se le denomina residual. Y se consolida una vez hayamos modificado el impacto, desde un valor potencial a un valor residual.
 
