@@ -158,7 +158,12 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar PDF',
+        download: 'downloads/pdf.pdf',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -171,31 +176,31 @@ export default {
   referencias: [
     {
       referencia:
-        'Escorial Bonet, Á. Escalera Alcázar, J. & Simón Quintana, S. (2019). Guía para la aplicación de UNE-ISO 31000:2018. AENOR - Asociación Española de Normalización y Certificación.',
+        'Escorial Bonet, Á., Escalera Alcázar, J. & Simón Quintana, S. (2019). <em>Guía para la aplicación de UNE-ISO 31000:2018. AENOR - Asociación Española de Normalización y Certificación.</em>',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/118154 ',
     },
     {
       referencia:
-        'ICONTEC (2018). NTC-ISO 31000:2018 - Gestión del Riesgo. Directrices.',
+        'ICONTEC. (2018). <em>NTC-ISO 31000:2018 - Gestión del Riesgo. Directrices.</em>',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790',
     },
     {
       referencia:
-        'INCIBE (2017). Gestión de riesgos - Una guía de aproximación para el empresario.',
+        'INCIBE. (2017). <em>Gestión de riesgos - Una guía de aproximación para el empresario.</em>',
       link:
         'https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_ciberseguridad_gestion_riesgos_metad.pdf',
     },
     {
       referencia:
-        'MINTIC. (2016). Seguridad y Privacidad de la Información - Guía de gestión de riesgos.',
+        'MINTIC. (2016). <em>Seguridad y Privacidad de la Información - Guía de gestión de riesgos.</em>',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G7_Gestion_Riesgos.pdf',
     },
     {
       referencia:
-        'Tamayo Saborit, M. & González Capote, D. (2020). La gestión de riesgos: herramienta estratégica de gestión empresarial. Editorial Universo Sur.',
+        'Tamayo Saborit, M. & González Capote, D. (2020). <em>La gestión de riesgos: herramienta estratégica de gestión empresarial.</em> Editorial Universo Sur.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/131885',
     },
@@ -247,23 +252,23 @@ export default {
   ],
   complementario: [
     {
-      tema: '2. Controles de seguridad',
+      tema: 'Controles de seguridad',
       referencia:
-        'Fernández Rivero, P. P. Gómez Fernández, L. (2018). Cómo implantar un SGSI según UNE-EN ISO/IEC 27001 y su aplicación en el Esquema Nacional de Seguridad. AENOR - Asociación Española de Normalización y Certificación. (p. 36-57).',
+        'Fernández Rivero, P. P. y Gómez Fernández, L. (2018). <em>Cómo implantar un SGSI según UNE-EN ISO/IEC 27001 y su aplicación en el Esquema Nacional de Seguridad.</em> AENOR - Asociación Española de Normalización y Certificación. (p. 36-57).',
       tipo: 'Libros digitales',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/53624?page=36',
     },
     {
-      tema: '3. Magerit',
+      tema: 'Magerit',
       referencia:
-        'PAE, Portal Administración Electrónica. (2012). MAGERIT versión 3 (versión español): Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información. ',
+        'PAE, Portal Administración Electrónica. (2012). <em>MAGERIT versión 3 (versión español): Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información. </em>',
       tipo: 'Libros digitales',
       link:
         'https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html ',
     },
     {
-      tema: '2. Controles de seguridad',
+      tema: 'Controles de seguridad',
       referencia:
         'ICONTEC (2018). NTC-ISO 31000:2018 - Gestión del Riesgo. Directrices. ',
       tipo: 'Libros digitales',
@@ -271,9 +276,9 @@ export default {
         'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790 ',
     },
     {
-      tema: '2. Controles de seguridad',
+      tema: 'Controles de seguridad',
       referencia:
-        'ICONTEC (2018). NTC-ISO-IEC 27001:2013 – Tecnología de la información. Técnicas de seguridad. Sistemas de gestión de la seguridad de la información. Requisitos.',
+        'ICONTEC (2018). <em>NTC-ISO-IEC 27001:2013 – Tecnología de la información. Técnicas de seguridad. Sistemas de gestión de la seguridad de la información. Requisitos.</em>',
       tipo: 'Libros digitales',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6387',
@@ -300,68 +305,26 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Jenny Patricia Torres Sarmiento',
-          cargo: 'Experta temática ',
-          centro: 'Regional Antioquía - Diseño, confección y moda',
-        },
-        {
-          nombre: 'Ericka Alexandra Blanco Sánchez',
-          cargo: 'Experta temática ',
-          centro: 'Regional Antioquía - Diseño, confección y moda',
-        },
-        {
-          nombre: 'María Camila Álvarez',
-          cargo: 'Contratista Diseño Curricular',
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto temático',
           centro:
-            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
-          nombre: 'Liliana María Ceballos Gutiérrez',
-          cargo:
-            'Contratista Asesora Metodóloga diseño y desarrollo curricular',
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Diego E. Acevedo Guevara',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí',
-        },
-        {
-          nombre: 'Pedro Luis Sossa Ramírez',
-          cargo: 'Contratista Diseño y desarrollo curricular',
-          centro:
-            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí',
-        },
-        {
-          nombre: 'Víctor Manuel Isaza Córdoba',
-          cargo: 'Contratista Diseño y desarrollo curricular',
-          centro:
-            'Regional Antioquia Centro de Formación en Diseño, Confección y Moda Complejo Sur Itagüí',
-        },
-        {
-          nombre: 'Vilma Lucía Perilla Méndez',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial. Regional Distrito Capital',
-        },
-        {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisora Metodológica y Pedagógica',
-          centro:
-            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital.',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Revisión y corrección de estilo',
-          centro:
-            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
-        },
-        {
-          nombre: 'Paola Alexandra Moya Peralta',
-          cargo: 'Diseñador instruccional',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          cargo: 'Correctora de estilo',
+          centro: 'Centro de diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -369,22 +332,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Blanca Flor Tinoco',
-          cargo: 'Diseñador web',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Edward Leonardo Pico Cabra',
+          nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

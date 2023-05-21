@@ -494,7 +494,7 @@
                   p Salvaguardas relacionadas con los componentes de seguridad del sistema.
                   p.mt-4 Ejemplos: inventario de activos, análisis de riesgos, plan de continuidad.
 
-        p.mt-5(data-aos="fade-up") De acuerdo al modelo anterior, Podremos determinar y agrupas las salvaguardas de acuerdo a su efecto sobre una amenaza, como se puede identificar en la tabla No 5.
+        p.my-5(data-aos="fade-up" style="position:relative") De acuerdo al modelo anterior, Podremos determinar y agrupas las salvaguardas de acuerdo a su efecto sobre una amenaza, como se puede identificar en la tabla No 5.
 
         .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
           h5 Tabla 5.
@@ -519,7 +519,7 @@
                 td.p-4.text-center(style="border:0") MN] de monitorización #[br] [DC] de detección #[br] [AW] de concienciación #[br] [AD] administrativas
 
     .col-lg-10.m-auto.mt-5
-      p(data-aos="fade-up") Las salvaguardas también por la eficacia en el momento de actuar frente al riesgo para el cual fueron consideradas, una salvaguarda adecuada en 100% eficaz si combina los siguientes factores:
+      p(data-aos="fade-up") Las salvaguardas también por la eficacia en el momento de actuar frente al riesgo para el cual fueron consideradas, una salvaguarda adecuada en 100 % eficaz si combina los siguientes factores:
       .row.mt-4.pt-4.pb-0.pe-5(style="background-color:#D5CEF8;border-radius:30px;")
         .col-xl-5.col-lg-6.ps-0
           figure(style="position:relative")
@@ -548,9 +548,9 @@
               i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
               | Existen controles que avisan de posibles fallos.
 
-      p.mt-5(data-aos="fade-up") Entre una eficacia del 0% para aquellas que faltan y el 100% para aquellas que son idóneas y que están perfectamente implantadas, se estimará un grado de eficacia real en cada caso concreto. Para medir los aspectos organizativos, se puede emplear una escala de madurez que recoja en forma de factor corrector la confianza que merece el proceso de gestión de la salvaguarda:
+      p.mt-5(data-aos="fade-up") Entre una eficacia del 0 % para aquellas que faltan y el 100 % para aquellas que son idóneas y que están perfectamente implantadas, se estimará un grado de eficacia real en cada caso concreto. Para medir los aspectos organizativos, se puede emplear una escala de madurez que recoja en forma de factor corrector la confianza que merece el proceso de gestión de la salvaguarda:
 
-    .col-lg-8.m-auto.mt-5
+    .col-lg-10.col-xl-8.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(style="position:relative")
         h5 Tabla 6.
         span Eficacia y madurez de las salvaguardas.
@@ -560,8 +560,8 @@
           caption(style="background-color:#F6F6F6;font-weight:400;") Nota. https://cutt.ly/DB7caei
           thead(style="border:0;")
             tr(style="background-color:#36257B;")
-              th.p-4.text-white.text-center(style="border:0;font-size:17px;") Factor
-              th.p-4.text-white.text-center(style="border:0;font-size:17px;") Nivel
+              th.p-4.text-white.text-center(style="border:0;font-size:17px; width: 120px") Factor
+              th.p-4.text-white.text-center(style="border:0;font-size:17px; width: 120px") Nivel
               th.p-4.text-white.text-center(style="border:0;font-size:17px;") Significado
           tbody
             tr(style="background-color:#D1F1F6;")
@@ -612,18 +612,18 @@
       .col-xl-8.col-lg-7(style="place-self:center;")
         p(data-aos="fade-up") #[strong Riesgo residual]
         p.mt-4(data-aos="fade-up") Este riesgo residual, es calculado a partir del conjunto de salvaguardas implementadas y que conllevan a que un activo no esté sujeto a una potencial alteración en su calidad por ende no ha sido degradado.
-        p.mt-4(data-aos="fade-up") El cálculo del riesgo residual se determina de la siguiente manera.
+        p.mt-4(data-aos="fade-up") El cálculo del riesgo residual se determina de la siguiente manera:
         ul.lista-ul.mt-4
-          li.mb-0(data-aos="fade-up")
+          li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
             | Tomando como referente que los activos no han cambiado, ni sus dependencias, sino solamente la magnitud de la degradación y la probabilidad de las amenazas, se repiten los cálculos de riesgo usando el impacto residual y la probabilidad residual de ocurrencia.
-          li.mb-0(data-aos="fade-up")
+          li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
             | La magnitud de la degradación se toma en consideración en el cálculo del impacto residual.
-          li.mb-0(data-aos="fade-up")
+          li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
             | La magnitud de la probabilidad residual tomando en cuenta la eficacia de las salvaguardas, es la proporción que resta entre la eficacia perfecta y la eficacia real.
-          li.mb-0(data-aos="fade-up")
+          li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
             | El riesgo residual puede calcularse acumulado sobre los activos inferiores, o repercutido sobre los activos superiores.
 

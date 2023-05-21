@@ -17,3 +17,16 @@
 
   100%
     transform: translateY(0px)
+
+.lista-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    align-items:center
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul li>i:first-of-type
+  top: 8px
