@@ -30,8 +30,8 @@
       span Dominios de seguridad de la norma ISO/IEC 27001:2013.
 
     figure.mt-5
-      img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up")
-    figcaption.mt-3(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
+      img(src="@/assets/curso/tema2/3b.svg" data-aos="zoom-in-up")
+    figcaption.mt-1(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .tarjeta.color-primario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#36257B")
       .row.justify-content-around.align-items-center
@@ -55,8 +55,8 @@
         span Dominios de seguridad de la norma ISO/IEC 27001:2013.
 
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/6.svg" data-aos="zoom-in-up")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/5b.svg" data-aos="zoom-in-up")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/6b.svg" data-aos="zoom-in-up")
       figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-acento-contenido.p-4.mt-5.col-lg-10.m-auto
@@ -210,8 +210,8 @@
         h5 Figura 12.
         span A12 Seguridad de las operaciones.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/32.svg" data-aos="zoom-in-up")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/33.svg" data-aos="zoom-in-up")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/32b.svg" data-aos="zoom-in-up")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/33b.svg" data-aos="zoom-in-up")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-secundario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;")
@@ -239,8 +239,8 @@
           h5 Figura 14.
           span A14 Adquisición desarrollo y manteniendo de sistemas.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/38.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/39.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/38b.svg" data-aos="zoom-in-up")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/39b.svg" data-aos="zoom-in-up")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     p.mt-5(data-aos="fade-up") La relación con los proveedores de productos o servicios en la organización, debe estar alineada con las políticas de seguridad, y para este caso, en la figura No. 15 encontramos algunos controles sugeridos para asegurar un apropiado intercambio de información con sus proveedores.

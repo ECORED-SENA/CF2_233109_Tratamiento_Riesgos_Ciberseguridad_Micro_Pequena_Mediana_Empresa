@@ -17,8 +17,8 @@
           h5 Figura 19.
           span Marco de trabajo para la gestión de riesgos de acuerdo a ISO 31000.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema3/3.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema3/4.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema3/3b.svg" data-aos="zoom-in-up")
+          img.d-block.d-lg-none(src="@/assets/curso/tema3/4b.svg" data-aos="zoom-in-up")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptado de MAGERIT - versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información.
 
     p.mt-5(data-aos="fade-up") Las propuestas normativas buscan identificar el nivel de vulnerabilidad de los activos de información, siendo Magerit preferida por su sencillez y su objetividad en el momento de su aplicación para la evaluación del riesgo. A continuación se exponen los objetivos de MAGERIT.
