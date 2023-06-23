@@ -17,8 +17,8 @@
           h5 Figura 19.
           span Marco de trabajo para la gestión de riesgos de acuerdo a ISO 31000.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema3/3b.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema3/4b.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema3/3a.svg" data-aos="zoom-in-up")
+          img.d-block.d-lg-none(src="@/assets/curso/tema3/3c.svg" data-aos="zoom-in-up")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptado de MAGERIT - versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información.
 
     p.mt-5(data-aos="fade-up") Las propuestas normativas buscan identificar el nivel de vulnerabilidad de los activos de información, siendo Magerit preferida por su sencillez y su objetividad en el momento de su aplicación para la evaluación del riesgo. A continuación se exponen los objetivos de MAGERIT.
@@ -57,16 +57,20 @@
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/sAyLsjxgIrc" title="Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.mt-3.position-relative Video. Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información)
+
       .row.mt-5.col-lg-10.m-auto
         .col-lg-8.mb-4.mb-lg-0(style="place-self:center;position:relative")
           p(data-aos="fade-up") El procedimiento de análisis de riesgos se puede desarrollar en cualquier tipo de organización que desarrolle sus funciones apoyado en sistemas de información y comunicaciones, independiente del sector bien sea público o privado, y se recomienda realizarlo con mayor razón cuando se manejan datos confidenciales.
-          p.mt-4(data-aos="fade-up") Los pasos generales para desarrollar un análisis de riesgos, relacionados con la seguridad informática, son los siguientes:
+          p.mt-4(data-aos="fade-up") Los pasos generales para desarrollar un análisis de riesgos, relacionados con la seguridad informática, se evidencian en el siguiente video títulado Procedimiento de Análisis de Riesgos:
         .col-lg-4(style="place-self:center;position:relative")
           figure(style="position:relative")
             img(src="@/assets/curso/tema3/8.png" data-aos="fade-left")
+
       figure.mt-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/xN6gIERrcTU" title="Procedimiento de Análisis de Riesgos -Pasos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.mt-3.position-relative Video. Procedimiento de Análisis de Riesgos - Pasos
 
     Separador.mt-5
 
@@ -398,7 +402,7 @@
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/33.png" data-aos="fade-right")
       .col-xl-8.col-lg-7(style="place-self:center;")
-        p(data-aos="fade-up") Agregación de riesgos: bajo las siguientes condiciones, se permite la agrupación de los riesgos:
+        p(data-aos="fade-up") #[strong Agregación de riesgos:] bajo las siguientes condiciones, se permite la agrupación de los riesgos:
         ul.lista-ul
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
@@ -425,11 +429,11 @@
     p.mt-4(data-aos="fade-up") A continuación, se describen las acciones que se deben aplicar para reducir el riesgo informático:
 
     figure
-      img.d-none.d-lg-block(src="@/assets/curso/tema3/34b.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema3/35b.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema3/34a.svg" data-aos="zoom-in-up")
+      img.d-block.d-lg-none(src="@/assets/curso/tema3/34c.svg" data-aos="zoom-in-up")
 
     .cont_3_4.mt-5(style="position:relative")
-      .col-lg-10.m-auto
+      .col-xl-10.col-lg-12.col-md-12.m-auto
         p(data-aos="fade-up" style="position:relative") #[strong Tipo de protección:] la determinación del tipo de protección es fundamental para identificar el tipo de protección, a continuación, en la tabla No. 4 vamos a reconocer los tipos sugeridos por la metodología Magerit.
         .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
           h5 Tabla 4.
@@ -440,59 +444,59 @@
             caption(style="background-color:#F6F6F6;font-weight:400;") Nota. Recuperado de MAGERIT– versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información https://www.ccn-cert.cni.es/documentos-publicos/1789-magerit-libro-i-metodo/file.html
             thead(style="border:0;")
               tr(style="background-color:#36257B;")
-                th.p-4.text-white.text-center(style="border:0;font-size:17px;") Tipo Protección
+                th.p-4.text-white.text-center(style="border:0;font-size:17px; width: 30%") Tipo Protección
                 th.p-4.text-white.text-center(style="border:0;font-size:17px;") Descripción
             tbody
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [PR] Prevención
                 td.p-4(style="border:0")
                   p Salvaguardas preventivas que reducen las oportunidades de que un incidente ocurra. Si la salvaguarda falla y el incidente llega a ocurrir, los daños son los mismos.
-                  p.mt-4 Ejemplos: autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas.
+                  p.mt-4 #[strong Ejemplos:] autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DR] Disuasión
                 td.p-4(style="border:0;")
                   p Salvaguarda disuasoria, tiene efecto sobre los atacantes, reduciendo la intención de que estos se atrevan a atacar un activo.
-                  p.mt-4 Ejemplos: vallas elevadas, guardias de seguridad, avisos sobre la persecución del delito o persecución del delincuente.
+                  p.mt-4 #[strong Ejemplos:] vallas elevadas, guardias de seguridad, avisos sobre la persecución del delito o persecución del delincuente.
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [EL] Eliminación
                 td.p-4(style="border:0")
                   p Son salvaguardas que eliminan un incidente, impidiendo que éste tenga lugar. Actúan antes de que el incidente se haya producido. No reducen los daños caso de que la salvaguarda no sea perfecta y el incidente llegue a ocurrir.
-                  p.mt-4 Ejemplos: eliminación de cuentas estándar, de cuentas sin contraseña, de servicios innecesarios, … ; en general, todo lo que tenga que ver con la fortificación o bastionado, ..., cifrado de la información, ..., armarios ignífugos, …
+                  p.mt-4 #[strong Ejemplos:] eliminación de cuentas estándar, de cuentas sin contraseña, de servicios innecesarios, … ; en general, todo lo que tenga que ver con la fortificación o bastionado, ..., cifrado de la información, ..., armarios ignífugos, …
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [IM] Minimización del impacto / limitación del impacto
                 td.p-4(style="border:0;")
                   p Salvaguarda que minimiza o limita el impacto acotando las consecuencias de un incidente.
-                  p.mt-4 Ejemplos: desconexión de redes o equipos en caso de ataque, detención de servicios en caso de ataque, seguros de cobertura, cumplimiento de la legislación vigente.
+                  p.mt-4 #[strong Ejemplos:] desconexión de redes o equipos en caso de ataque, detención de servicios en caso de ataque, seguros de cobertura, cumplimiento de la legislación vigente.
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [CR] Corrección
                 td.p-4(style="border:0")
                   p Salvaguarda que actúa después de un incidente, ejerciendo una reparación al activo.
-                  p.mt-4 Ejemplos: gestión de incidentes, líneas de comunicación alternativas, fuentes de alimentación redundantes, ...
+                  p.mt-4 #[strong Ejemplos:] gestión de incidentes, líneas de comunicación alternativas, fuentes de alimentación redundantes, ...
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [RC] Recuperación
                 td.p-4(style="border:0;")
                   p Salvaguarda que ofrece recuperación a un activo que ha sufrido una alteración, regresando al estado útil y viable,
-                  p.mt-4 Ejemplos: copias de seguridad (#[em back-up]).
+                  p.mt-4 #[strong Ejemplos:] copias de seguridad (#[em back-up]).
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [MN] Monitorización
                 td.p-4(style="border:0")
                   p Salvaguardas enfocadas en la vigilancia y monitoreo de activos para identificar posibles cambios o alteraciones en el normal comportamiento de un activo de información.
-                  p.mt-4 Ejemplos: registros de actividad, registro de descargas de web, ...
+                  p.mt-4 #[strong Ejemplos:] registros de actividad, registro de descargas de web, ...
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DC] detección
                 td.p-4(style="border:0;")
                   p Salvaguarda que detecta un ataque, determinando lo que está sucediendo. No necesariamente debe detener la acción, pero sí permite establecer las medidas mínimas necesarias para su protección.
-                  p.mt-4 Ejemplos: antivirus, IDS, detectores de incendio, ...
+                  p.mt-4 #[strong Ejemplos:] antivirus, IDS, detectores de incendio, ...
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [AW] Concienciación
                 td.p-4(style="border:0")
                   p Actividades relacionadas con la transferencia del conocimiento para la seguridad de todos los actores involucrados en la organización y que dependen de los activos de información.
-                  p.mt-4 Ejemplos: cursos de concienciación, cursos de formación, ...
+                  p.mt-4 #[strong Ejemplos:] cursos de concienciación, cursos de formación, ...
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [AD] Administración
                 td.p-4(style="border:0;")
                   p Salvaguardas relacionadas con los componentes de seguridad del sistema.
-                  p.mt-4 Ejemplos: inventario de activos, análisis de riesgos, plan de continuidad.
+                  p.mt-4 #[strong Ejemplos:] inventario de activos, análisis de riesgos, plan de continuidad.
 
         p.my-5(data-aos="fade-up" style="position:relative") De acuerdo al modelo anterior, Podremos determinar y agrupas las salvaguardas de acuerdo a su efecto sobre una amenaza, como se puede identificar en la tabla No 5.
 
@@ -518,7 +522,7 @@
                 td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") Consolidan el efecto de las demás
                 td.p-4.text-center(style="border:0") MN] de monitorización #[br] [DC] de detección #[br] [AW] de concienciación #[br] [AD] administrativas
 
-    .col-lg-10.m-auto.mt-5
+    .col-xl-10.col-lg-12.col-md-12.m-auto.mt-5
       p(data-aos="fade-up") Las salvaguardas también por la eficacia en el momento de actuar frente al riesgo para el cual fueron consideradas, una salvaguarda adecuada en 100 % eficaz si combina los siguientes factores:
       .row.mt-4.pt-4.pb-0.pe-5(style="background-color:#D5CEF8;border-radius:30px;")
         .col-xl-5.col-lg-6.ps-0
@@ -550,7 +554,7 @@
 
       p.mt-5(data-aos="fade-up") Entre una eficacia del 0 % para aquellas que faltan y el 100 % para aquellas que son idóneas y que están perfectamente implantadas, se estimará un grado de eficacia real en cada caso concreto. Para medir los aspectos organizativos, se puede emplear una escala de madurez que recoja en forma de factor corrector la confianza que merece el proceso de gestión de la salvaguarda:
 
-    .col-lg-10.col-xl-8.m-auto.mt-5
+    .col-xl-10.col-lg-12.col-md-12.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(style="position:relative")
         h5 Tabla 6.
         span Eficacia y madurez de las salvaguardas.
@@ -608,7 +612,7 @@
     .row.mt-4.pt-4.pb-0.pe-5(style="background-color:#EAE6FB;")
       .col-xl-4.col-lg-5.ps-0.col-sm-7.col-8
         figure(style="position:relative")
-          img(src="@/assets/curso/tema3/39.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/39.png" data-aos="fade-right").d-none.d-lg-block
       .col-xl-8.col-lg-7(style="place-self:center;")
         p(data-aos="fade-up") #[strong Riesgo residual]
         p.mt-4(data-aos="fade-up") Este riesgo residual, es calculado a partir del conjunto de salvaguardas implementadas y que conllevan a que un activo no esté sujeto a una potencial alteración en su calidad por ende no ha sido degradado.
@@ -616,16 +620,16 @@
         ul.lista-ul.mt-4
           li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | Tomando como referente que los activos no han cambiado, ni sus dependencias, sino solamente la magnitud de la degradación y la probabilidad de las amenazas, se repiten los cálculos de riesgo usando el impacto residual y la probabilidad residual de ocurrencia.
+            span Tomando como referente que los activos no han cambiado, ni sus dependencias, sino solamente la magnitud de la degradación y la probabilidad de las amenazas, se repiten los cálculos de riesgo usando el impacto residual y la probabilidad residual de ocurrencia.
           li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | La magnitud de la degradación se toma en consideración en el cálculo del impacto residual.
+            span La magnitud de la degradación se toma en consideración en el cálculo del impacto residual.
           li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | La magnitud de la probabilidad residual tomando en cuenta la eficacia de las salvaguardas, es la proporción que resta entre la eficacia perfecta y la eficacia real.
+            span La magnitud de la probabilidad residual tomando en cuenta la eficacia de las salvaguardas, es la proporción que resta entre la eficacia perfecta y la eficacia real.
           li.mb-2(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | El riesgo residual puede calcularse acumulado sobre los activos inferiores, o repercutido sobre los activos superiores.
+            span El riesgo residual puede calcularse acumulado sobre los activos inferiores, o repercutido sobre los activos superiores.
 
     .col-lg-10.m-auto.mt-5
       p(data-aos="fade-up") Es así como a partir del establecimiento de las estimaciones y cálculos sugeridos, se permite evaluar y gestionar los riesgos sobre los activos de información en la organización, estos cálculos se pueden implementar en herramientas de gestión o a través de soluciones de hojas de cálculo que permitan realizar un ejercicio práctico y rápido por parte de las organizaciones.

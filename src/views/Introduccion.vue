@@ -12,11 +12,11 @@
 
     .cajon.color-acento-contenido.p-4.mt-5.col-lg-10.m-auto
       p.mb-0(data-aos="fade-up") A continuación, vamos a revisar algunos temas específicos relacionados con la valoración del riesgo y cómo la podemos aplicar a cualquier organización independientemente de su naturaleza, tamaño o sector económico.
-    
+
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/L9NilXPEvUE" title="Valoración del riesgo de ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-  
+      figcaption.mt-3 Video. Valoración del riesgo de ciberseguridad
 
 </template>
 

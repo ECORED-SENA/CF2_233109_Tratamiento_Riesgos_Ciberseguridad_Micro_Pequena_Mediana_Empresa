@@ -37,25 +37,22 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Gestión del riesgo informático',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Objetivo, características y beneficios',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Etapas',
             hash: 't_1_2',
@@ -64,19 +61,16 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Controles de seguridad',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Controles',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Declaración de aplicabilidad',
             hash: 't_2_2',
@@ -85,43 +79,36 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Magerit',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Identificación de activos',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Identificación de amenazas',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'Determinación del impacto potencial',
             hash: 't_3_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.4',
             titulo: 'Determinación del riesgo potencial',
             hash: 't_3_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.5',
             titulo: 'Establecimiento de salvaguardas',
             hash: 't_3_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.6',
             titulo: 'Impacto residual',
             hash: 't_3_6',
@@ -252,7 +239,7 @@ export default {
   ],
   complementario: [
     {
-      tema: 'Controles de seguridad',
+      tema: '2. Controles de seguridad',
       referencia:
         'Fernández Rivero, P. P. y Gómez Fernández, L. (2018). <em>Cómo implantar un SGSI según UNE-EN ISO/IEC 27001 y su aplicación en el Esquema Nacional de Seguridad.</em> AENOR - Asociación Española de Normalización y Certificación. (p. 36-57).',
       tipo: 'Libros digitales',
@@ -260,15 +247,7 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/53624?page=36',
     },
     {
-      tema: 'Magerit',
-      referencia:
-        'PAE, Portal Administración Electrónica. (2012). <em>MAGERIT versión 3 (versión español): Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información. </em>',
-      tipo: 'Libros digitales',
-      link:
-        'https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html ',
-    },
-    {
-      tema: 'Controles de seguridad',
+      tema: '2. Controles de seguridad',
       referencia:
         'ICONTEC (2018). NTC-ISO 31000:2018 - Gestión del Riesgo. Directrices. ',
       tipo: 'Libros digitales',
@@ -276,12 +255,20 @@ export default {
         'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=74790 ',
     },
     {
-      tema: 'Controles de seguridad',
+      tema: '2. Controles de seguridad',
       referencia:
         'ICONTEC (2018). <em>NTC-ISO-IEC 27001:2013 – Tecnología de la información. Técnicas de seguridad. Sistemas de gestión de la seguridad de la información. Requisitos.</em>',
       tipo: 'Libros digitales',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6387',
+    },
+    {
+      tema: '3. Magerit',
+      referencia:
+        'PAE, Portal Administración Electrónica. (2012). <em>MAGERIT versión 3 (versión español): Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información. </em>',
+      tipo: 'Libros digitales',
+      link:
+        'https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html ',
     },
   ],
   creditos: [
@@ -295,9 +282,9 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -323,7 +310,7 @@ export default {
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Correctora de estilo',
+          cargo: 'Correctora de Estilo',
           centro: 'Centro de diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -339,25 +326,25 @@ export default {
         },
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -368,21 +355,21 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

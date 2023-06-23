@@ -22,35 +22,35 @@
       p.mt-4(data-aos="fade-up" style="position:relative") Los objetivos, características y beneficios, son:
 
       .row.mt-5.indicador__container(style="position:relative")
-        .col-xl-4.mb-5.mb-xl-0(style="position:relative")
+        .col-xl-4.col-md-9.mb-5.mb-xl-0(style="position:relative")
           figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
             .indicador--hover(v-if="indicadorTarjetas")
             img(src="@/assets/curso/tema1/3.png")
             .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
               h5 #[i.fas.fa-angle-up.me-2(style="background-color:#fff;padding:.5rem .8rem;border-radius:100%;")] Objetivos
               ul.lista-ul
-                li 
+                li
                   i.lista-ul__vineta
-                  | Reconocer los tipos de riesgos que pueden afectar las operaciones   en una organización.
-                li 
+                  span Reconocer los tipos de riesgos que pueden afectar las operaciones   en una organización.
+                li
                   i.lista-ul__vineta
-                  | Evaluar y controlar los riesgos, a partir de la aplicación de salvaguardar.
-        .col-xl-4.mb-5.mb-xl-0
+                  span Evaluar y controlar los riesgos, a partir de la aplicación de salvaguardar.
+        .col-xl-4.col-md-9.mb-5.mb-xl-0
           figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
             img(src="@/assets/curso/tema1/4.png")
             .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
               h5 #[i.fas.fa-angle-up.me-2(style="background-color:#fff;padding:.5rem .8rem;border-radius:100%;")] Características
               ul.lista-ul
-                li 
+                li
                   i.lista-ul__vineta
-                  | La gestión del riesgo, debe ser un proceso continuo, nunca termina ni se interrumpe. 
-                li 
+                  span La gestión del riesgo, debe ser un proceso continuo, nunca termina ni se interrumpe.
+                li
                   i.lista-ul__vineta
-                  | Aplica métodos para la atención de los riesgos identificados.
-                li 
+                  span Aplica métodos para la atención de los riesgos identificados.
+                li
                   i.lista-ul__vineta
-                  | Debe ser incorporado dentro de la cultura organizacional.
-        .col-xl-4.mb-5.mb-xl-0
+                  span Debe ser incorporado dentro de la cultura organizacional.
+        .col-xl-4.col-md-9.mb-5.mb-xl-0
           figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
             img(src="@/assets/curso/tema1/5.png")
             .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
@@ -58,19 +58,19 @@
               ul.lista-ul
                 li
                   i.lista-ul__vineta
-                  | Optimización del proceso de toma de decisiones.
+                  span Optimización del proceso de toma de decisiones.
                 li
                   i.lista-ul__vineta
-                  | Ofrece una visión integrada del negocio.
+                  span Ofrece una visión integrada del negocio.
                 li
                   i.lista-ul__vineta
-                  | Permite aprovechar los recursos.
+                  span Permite aprovechar los recursos.
                 li
                   i.lista-ul__vineta
-                  | Reduce los imprevistos causados por incidentes.
-                li 
+                  span Reduce los imprevistos causados por incidentes.
+                li
                   i.lista-ul__vineta
-                  | Permite fortalecer los sistemas de control.
+                  span Permite fortalecer los sistemas de control.
 
     Separador.mt-5
 
@@ -80,11 +80,11 @@
     p(data-aos="fade-up") La gestión del riesgo, de acuerdo a las normas específicas como son ISO 31000 o Magerit, establecen etapas que permiten abordar sus métodos para realizar una adecuada gestión del riesgo en las organizaciones a partir de 4 principales etapas. Estas etapas generales, permiten realizar un ejercicio dentro de las organizaciones, que buscan de manera sistemática y organizada, establecer la siguiente ruta:
 
     figure.mt-5.col-lg-10.m-auto.d-none.d-lg-block
-      img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema1/6a.svg" data-aos="zoom-in-up" alt="La imagen presenta las 4 etapas generales de la evaluación del riesgo, las cuales son identificar, evaluar, reaccionar y controlar.")
 
     .d-block.d-lg-none.mt-5
       figure.col-sm-8.col-10.m-auto
-        img(src="@/assets/curso/tema1/7.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/6b.svg" data-aos="zoom-in-up" alt="La imagen presenta las 4 etapas generales de la evaluación del riesgo, las cuales son identificar, evaluar, reaccionar y controlar.")
       .row.mt-5(style="position:relative;z-index:2;")
         .col-auto.pe-0
           figure
@@ -126,7 +126,7 @@
 
 
 
-   
+
 
 </template>
 

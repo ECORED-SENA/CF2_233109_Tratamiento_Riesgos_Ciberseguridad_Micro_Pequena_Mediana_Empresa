@@ -16,6 +16,7 @@
 
     p.mt-5(data-aos="fade-up") Los controles de seguridad se recomiendan sean implementados a partir del análisis de riesgos, esto permitirá hacer frente de manera asertiva a las necesidades identificadas en cada uno de los activos de información.
 
+
     .mt-5.row.mb-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:300px;")
       .col-auto.p-0(style="place-self:center;")
         figure
@@ -30,33 +31,28 @@
       span Dominios de seguridad de la norma ISO/IEC 27001:2013.
 
     figure.mt-5
-      img(src="@/assets/curso/tema2/3b.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema2/3b.svg" data-aos="zoom-in-up" alt="La imagen presenta los dominios de la Norma ISO/IEC 270001:2013, que van de la A5 a la A18, los cuales representan la seguridad operativa, la seguridad lógica, la seguridad física y la seguridad legal.")
     figcaption.mt-1(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
-    .tarjeta.color-primario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#36257B")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/4.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1.text-white Figura 1
-              p.text-white Dominios de seguridad de la norma ISO/IEC 27001:2013.
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/ISO_IEC_27001_2013.pdf')" target="_blank" download="")
-                span Descargar
-                i.fas.fa-file-download
+    .row.justify-content-center.mt-5
+      .col-auto
+        a.anexo.mb-4(:href="obtenerLink('/downloads/ISO_IEC_27001_2013.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p #[strong Anexo.] Dominios de seguridad de la norma ISO/IEC 27001:2013.
+
 
     p.mt-5(data-aos="fade-up") Estas categorías están clasificadas desde la A5 hasta el A18, que corresponden a 14 dominios que representan los niveles de seguridad como son: operativos, lógicos, físicos y legales; los cuales se pueden identificar desde el ámbito estratégico al igual que operativo. Lo anterior se puede observar en la figura No. 2
 
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0
         h5 Figura 2.
-        span Dominios de seguridad de la norma ISO/IEC 27001:2013.
+        span Ejemplo de dominio de la norma ISO/IEC 27001:2013
 
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/5b.svg" data-aos="zoom-in-up")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/6b.svg" data-aos="zoom-in-up")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/5b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo del dominio de la Norma ISO/IEC 27001-2013.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/6b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo del dominio de la Norma ISO/IEC 27001-2013.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-acento-contenido.p-4.mt-5.col-lg-10.m-auto
@@ -77,8 +73,8 @@
         span Objetivo de control de la norma ISO/IEC 27001:2013.
       .col-auto
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/7.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/9.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/7.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los objetivos de control de la Norma ISO/IEC 27001-2013.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/9.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los objetivos de control de la Norma ISO/IEC 27001-2013.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
       .col.d-none.d-xl-block
         figure
@@ -105,8 +101,8 @@
           span Ejemplo de controles de la norma ISO/IEC 27001:2013.
 
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/11.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/12.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/11.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los controles de la Norma ISO/IEC 27001-2013.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/12.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los controles de la Norma ISO/IEC 27001-2013.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     p.mt-5(data-aos="fade-up") Los dominios de seguridad que propone esta norma se encuentran estructurados de acuerdo a los componentes y elementos más relevantes para el mejoramiento de los activos de información y estos proponen los siguientes objetivos de control:
@@ -146,8 +142,8 @@
         h5 Figura 7.
         span A7 Seguridad de los recursos humanos.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/19.svg" data-aos="zoom-in-up")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/20.svg" data-aos="zoom-in-up")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/19a.svg" data-aos="zoom-in-up")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/19b.svg" data-aos="zoom-in-up")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-secundario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;")
@@ -287,8 +283,8 @@
           h5 Figura 18.
           span A18 Cumplimiento.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/48.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/49.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/48a.svg" data-aos="zoom-in-up")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/48b.svg" data-aos="zoom-in-up")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     p.mt-5(data-aos="fade-up") Estos objetivos de control en profundidad pueden ser consultados en la Norma ISO/IEC 27001:2013 – Anexo A para identificar aspectos más en profundidad sobre los controles de seguridad.
@@ -305,8 +301,8 @@
         figure
           img(src="@/assets/curso/tema2/50.svg" data-aos="fade-right")
       .col-xl-9.col-lg-8.col-md-6(style="place-self:center")
-        p(data-aos="fade-up") Este documento es construido desde el ejercicio de análisis de riesgos, por lo que se considera un documento de referencia tanto para la implementación de controles, así como para la evaluación de la eficacia de los mismos a futuro.
-        p.mt-4.mb-0(data-aos="fade-up") En la tabla 1, podemos observar un ejemplo de documento de Declaración de Aplicabilidad, en donde se establecen los controles, su aplicación, su justificación, responsable, así como el plan de acción a realizar para su implementación.
+        p(data-aos="fade-up").pt-lg-3.pt-md-4 Este documento es construido desde el ejercicio de análisis de riesgos, por lo que se considera un documento de referencia tanto para la implementación de controles, así como para la evaluación de la eficacia de los mismos a futuro.
+        p.mt-4.pb-lg-3.pb-md-4mb-0(data-aos="fade-up") En la tabla 1, podemos observar un ejemplo de documento de Declaración de Aplicabilidad, en donde se establecen los controles, su aplicación, su justificación, responsable, así como el plan de acción a realizar para su implementación.
 
     .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
       h5 Tabla 1.
