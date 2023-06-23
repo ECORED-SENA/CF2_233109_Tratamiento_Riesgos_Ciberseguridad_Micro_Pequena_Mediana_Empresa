@@ -17,8 +17,8 @@
           h5 Figura 19.
           span Marco de trabajo para la gestión de riesgos de acuerdo a ISO 31000.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema3/3a.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema3/3c.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema3/3a.svg" data-aos="zoom-in-up" alt="La imagen presenta la metodología Magerit para la gestión del riesgo, la cual compienza con los principios, luego el lmandato y compromiso, pasa a la implementación de la gestión de riesgos, luego viene el seguimiento y revisión del marco y finalmente la mejora continua del marco, para regresar al diseño del marco de trabajo.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema3/3c.svg" data-aos="zoom-in-up" alt="La imagen presenta la metodología Magerit para la gestión del riesgo, la cual compienza con los principios, luego el lmandato y compromiso, pasa a la implementación de la gestión de riesgos, luego viene el seguimiento y revisión del marco y finalmente la mejora continua del marco, para regresar al diseño del marco de trabajo.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptado de MAGERIT - versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información.
 
     p.mt-5(data-aos="fade-up") Las propuestas normativas buscan identificar el nivel de vulnerabilidad de los activos de información, siendo Magerit preferida por su sencillez y su objetividad en el momento de su aplicación para la evaluación del riesgo. A continuación se exponen los objetivos de MAGERIT.
@@ -110,8 +110,8 @@
         h5 Figura 20.
         span Coste de interrupción de la disponibilidad.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up")
-        img.d-block.d-lg-none(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up")
+        img.d-none.d-lg-block(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up" alt="La imagen presenta el coste de interrupción de la disponibilidad, donde el eje X es representado por el tiempo y el eje Y por el coste.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up" alt="La imagen presenta el coste de interrupción de la disponibilidad, donde el eje X es representado por el tiempo y el eje Y por el coste.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. https://cutt.ly/KB7x2kX
 
       p.mt-5(data-aos="fade-up") Los anteriores criterios son necesarios para identificar y caracterizar cada uno de los activos de la organización, para continuar con la identificación de amenazas para cada uno de estos.
@@ -366,8 +366,8 @@
           h5 Figura 21.
           span El riesgo en función del impacto y la probabilidad.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema3/30.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema3/31.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema3/30.svg" data-aos="zoom-in-up" alt="La imagen presenta el riesgo en función del impacto y la probabilidad, donde el eje X es la probabilidad y el eje Y corresponde al impacto, mostrando los 4 principales puntos de relación.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema3/31.svg" data-aos="zoom-in-up" alt="La imagen presenta el riesgo en función del impacto y la probabilidad, donde el eje X es la probabilidad y el eje Y corresponde al impacto, mostrando los 4 principales puntos de relación.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota: Recuperado de MAGERIT– versión 3.0 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información.
 
     p.mt-5(data-aos="fade-up") A continuación se va a ampliar la información sobre la clasificación de los riesgos:
