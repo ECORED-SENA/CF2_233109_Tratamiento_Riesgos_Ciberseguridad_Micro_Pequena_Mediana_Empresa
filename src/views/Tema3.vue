@@ -451,7 +451,7 @@
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [PR] Prevención
                 td.p-4(style="border:0")
                   p Salvaguardas preventivas que reducen las oportunidades de que un incidente ocurra. Si la salvaguarda falla y el incidente llega a ocurrir, los daños son los mismos.
-                  p.mt-4 #[strong Ejemplos:] autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas.
+                  p.mt-4 #[strong Ejemplos:] autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de software, pruebas en preproducción, segregación de tareas.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DR] Disuasión
                 td.p-4(style="border:0;")
@@ -460,42 +460,42 @@
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [EL] Eliminación
                 td.p-4(style="border:0")
-                  p Son salvaguardas que eliminan un incidente, impidiendo que éste tenga lugar. Actúan antes de que el incidente se haya producido. No reducen los daños caso de que la salvaguarda no sea perfecta y el incidente llegue a ocurrir.
-                  p.mt-4 #[strong Ejemplos:] eliminación de cuentas estándar, de cuentas sin contraseña, de servicios innecesarios, … ; en general, todo lo que tenga que ver con la fortificación o bastionado, ..., cifrado de la información, ..., armarios ignífugos, …
+                  p Son salvaguardas que eliminan un incidente, impidiendo que tenga lugar, lo que significa que actúan antes que el incidente se haya producido. No reducen los daños en caso que la salvaguarda no sea perfecta y el incidente llegue a ocurrir.
+                  p.mt-4 #[strong Ejemplos:] eliminación de cuentas estándar o sin contraseña y de servicios innecesarios, y en general, todo lo que tenga que ver con la fortificación o bastionado, cifrado de información y armarios ignífugos.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [IM] Minimización del impacto / limitación del impacto
                 td.p-4(style="border:0;")
-                  p Salvaguarda que minimiza o limita el impacto acotando las consecuencias de un incidente.
-                  p.mt-4 #[strong Ejemplos:] desconexión de redes o equipos en caso de ataque, detención de servicios en caso de ataque, seguros de cobertura, cumplimiento de la legislación vigente.
+                  p Son salvaguardas que minimizan o limitan el impacto, acotando las consecuencias de un incidente.
+                  p.mt-4 #[strong Ejemplos:] desconexión de redes o equipos o detención de servicios en caso de ataque, seguros de cobertura, cumplimiento de la legislación vigente.
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [CR] Corrección
                 td.p-4(style="border:0")
-                  p Salvaguarda que actúa después de un incidente, ejerciendo una reparación al activo.
-                  p.mt-4 #[strong Ejemplos:] gestión de incidentes, líneas de comunicación alternativas, fuentes de alimentación redundantes, ...
+                  p Son salvaguardas que actúan después de un incidente, ejerciendo una reparación al activo.
+                  p.mt-4 #[strong Ejemplos:] gestión de incidentes, líneas de comunicación alternativas, fuentes de alimentación redundantes.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [RC] Recuperación
                 td.p-4(style="border:0;")
-                  p Salvaguarda que ofrece recuperación a un activo que ha sufrido una alteración, regresando al estado útil y viable,
+                  p Son salvaguardas que ofrecen recuperación a un activo que ha sufrido una alteración, regresando al estado útil y viable.
                   p.mt-4 #[strong Ejemplos:] copias de seguridad (#[em back-up]).
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [MN] Monitorización
                 td.p-4(style="border:0")
-                  p Salvaguardas enfocadas en la vigilancia y monitoreo de activos para identificar posibles cambios o alteraciones en el normal comportamiento de un activo de información.
-                  p.mt-4 #[strong Ejemplos:] registros de actividad, registro de descargas de web, ...
+                  p Son salvaguardas enfocadas en la vigilancia y el monitoreo de activos, para identificar posibles cambios o alteraciones en el normal comportamiento de un activo de información.
+                  p.mt-4 #[strong Ejemplos:] registros de actividad, registro de descargas de web.
               tr(style="background-color:#D1F1F6;")
-                td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DC] detección
+                td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DC] Detección
                 td.p-4(style="border:0;")
-                  p Salvaguarda que detecta un ataque, determinando lo que está sucediendo. No necesariamente debe detener la acción, pero sí permite establecer las medidas mínimas necesarias para su protección.
-                  p.mt-4 #[strong Ejemplos:] antivirus, IDS, detectores de incendio, ...
+                  p Son salvaguardas que detectan un ataque, determinando así lo que está sucediendo. No necesariamente deben detener la acción, pero sí permiten establecer las medidas mínimas necesarias para su protección.
+                  p.mt-4 #[strong Ejemplos:] antivirus, IDS, detectores de incendio.
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [AW] Concienciación
                 td.p-4(style="border:0")
-                  p Actividades relacionadas con la transferencia del conocimiento para la seguridad de todos los actores involucrados en la organización y que dependen de los activos de información.
-                  p.mt-4 #[strong Ejemplos:] cursos de concienciación, cursos de formación, ...
+                  p Son actividades relacionadas con la transferencia del conocimiento para la seguridad de todos los actores involucrados en la organización, y que dependen de los activos de información.
+                  p.mt-4 #[strong Ejemplos:] cursos de concienciación, cursos de formación.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [AD] Administración
                 td.p-4(style="border:0;")
-                  p Salvaguardas relacionadas con los componentes de seguridad del sistema.
+                  p Son salvaguardas relacionadas con los componentes de seguridad del sistema.
                   p.mt-4 #[strong Ejemplos:] inventario de activos, análisis de riesgos, plan de continuidad.
 
         p.my-5(data-aos="fade-up" style="position:relative") De acuerdo al modelo anterior, Podremos determinar y agrupas las salvaguardas de acuerdo a su efecto sobre una amenaza, como se puede identificar en la tabla No 5.
