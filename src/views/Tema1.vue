@@ -21,8 +21,8 @@
       p(data-aos="fade-up" style="position:relative") La gestión del riesgo se consolida como un proceso que permite identificar, evaluar y proponer estrategias para enfrentar los riesgos que pueden presentarse ante un activo de información.
       p.mt-4(data-aos="fade-up" style="position:relative") Los objetivos, características y beneficios, son:
 
-      .row.mt-5.indicador__container(style="position:relative")
-        .col-xl-4.col-md-9.mb-5.mb-xl-0(style="position:relative")
+      .row.justify-content-center.mt-5.indicador__container(style="position:relative")
+        .col-xl-4.col-lg-9.mb-5.mb-xl-0(style="position:relative")
           figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
             .indicador--hover(v-if="indicadorTarjetas")
             img(src="@/assets/curso/tema1/3.png")
@@ -35,7 +35,7 @@
                 li
                   i.lista-ul__vineta
                   span Evaluar y controlar los riesgos, a partir de la aplicación de salvaguardar.
-        .col-xl-4.col-md-9.mb-5.mb-xl-0
+        .col-xl-4.col-lg-9.mb-5.mb-xl-0
           figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
             img(src="@/assets/curso/tema1/4.png")
             .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4
@@ -50,7 +50,7 @@
                 li
                   i.lista-ul__vineta
                   span Debe ser incorporado dentro de la cultura organizacional.
-        .col-xl-4.col-md-9.mb-5.mb-xl-0
+        .col-xl-4.col-lg-9.mb-5.mb-xl-0
           figure.container__tarjetas(data-aos="zoom-in-up" @mouseover="indicadorTarjetas = false" style="position:relative;overflow:hidden;")
             img(src="@/assets/curso/tema1/5.png")
             .contenido__tarjetas.pt-2.pb-2.ps-4.pe-4

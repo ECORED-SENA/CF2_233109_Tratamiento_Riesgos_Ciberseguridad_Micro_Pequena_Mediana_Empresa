@@ -397,7 +397,7 @@
     p(data-aos="fade-up") Este riesgo repercutido se obtiene para activo, amenaza y dimensión de valoración, convirtiéndose en una función del valor propio, la degradación causada y la probabilidad de la amenaza.
     p.mt-4(data-aos="fade-up") Este riesgo permite determinar las consecuencias de las incidencias técnicas sobre la finalidad del sistema de información, debido a que se consolida como un recurso gerencial que permite la toma de decisiones críticas de un análisis de riesgos.
 
-    .row.mt-5.pt-0.pb-4.pe-5.col-xl-10.m-auto(style="background-color:#D5CEF8;border-radius:30px;")
+    .row.mt-5.p-5.p-xl-0.col-xl-10.m-auto(style="background-color:#D5CEF8;border-radius:30px;")
       .col-xl-4.col-lg-5.ps-0.col-sm-6.col-10.mb-4.mb-lg-0
         figure(style="position:relative")
           img(src="@/assets/curso/tema3/33.png" data-aos="fade-right")
@@ -406,19 +406,19 @@
         ul.lista-ul
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | Se puede agregar el riesgo repercutido a diferentes activos,
+            span Se puede agregar el riesgo repercutido a diferentes activos,
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | Se puede agregar el impacto acumulado sobre activos que no sean dependientes entre sí, y no hereden valor de un activo superior común.
+            span Se puede agregar el impacto acumulado sobre activos que no sean dependientes entre sí, y no hereden valor de un activo superior común.
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | No debe agregarse el riesgo acumulado sobre activos que no sean independientes, pues ello supondría sobre ponderar el riesgo al incluir varias veces el valor acumulado de activos superiores.
+            span No debe agregarse el riesgo acumulado sobre activos que no sean independientes, pues ello supondría sobre ponderar el riesgo al incluir varias veces el valor acumulado de activos superiores.
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | Puede agregarse el riesgo de diferentes amenazas sobre un mismo activo, aunque conviene considerar en qué medida las diferentes amenazas son independientes y pueden ser concurrentes.
+            span Puede agregarse el riesgo de diferentes amenazas sobre un mismo activo, aunque conviene considerar en qué medida las diferentes amenazas son independientes y pueden ser concurrentes.
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | Se puede agregar el riesgo de una amenaza en diferentes dimensiones.
+            span Se puede agregar el riesgo de una amenaza en diferentes dimensiones.
 
     Separador.mt-5
 
@@ -528,7 +528,7 @@
         .col-xl-5.col-lg-6.ps-0
           figure(style="position:relative")
             img(src="@/assets/curso/tema3/37.png" data-aos="fade-right")
-        .col-xl-7.col-lg-6.p-5.p-md-0(style="place-self:center;")
+        .col-xl-7.col-lg-6.p-5.p-xl-0(style="place-self:center;")
           p(data-aos="fade-up") #[strong Desde el punto de vista técnico.]
           ul.lista-ul.mt-2
             li.mb-0(data-aos="fade-up")
