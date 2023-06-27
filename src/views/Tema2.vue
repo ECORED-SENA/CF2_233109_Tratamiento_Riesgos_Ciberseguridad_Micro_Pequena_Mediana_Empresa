@@ -159,13 +159,15 @@
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .mt-5.cont_2_2(style="position:relative;")
-      p(data-aos="fade-up" style="position:relative") Otro factor importante es la restricción al acceso a los activos de información, a continuación, en la figura No. 9 podremos encontrar los controles para gestionar estos accesos, prevaleciendo siempre la confidencialidad, privacidad y disponibilidad del activo de información.
+
+      p(data-aos="fade-up" style="position:relative") #[br] Otro factor importante es la restricción al acceso a los activos de información, a continuación, en la figura No. 9 podremos encontrar los controles para gestionar estos accesos, prevaleciendo siempre la confidencialidad, privacidad y disponibilidad del activo de información.
 
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
           h5 Figura 9.
           span A9 Control de acceso.
         figure(style="position:relative")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/24.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
           img.d-block.d-lg-none(src="@/assets/curso/tema2/25.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota: Adaptada de ISO/IEC 27001:2013 – Anexo A
 
