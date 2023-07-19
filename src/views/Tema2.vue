@@ -51,8 +51,8 @@
         span Ejemplo de dominio de la norma ISO/IEC 27001:2013
 
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/5b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo del dominio de la Norma ISO/IEC 27001-2013.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/6b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo del dominio de la Norma ISO/IEC 27001-2013.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/5b2.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo del dominio de la Norma ISO/IEC 27001-2013.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/6b2.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo del dominio de la Norma ISO/IEC 27001-2013.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-acento-contenido.p-4.mt-5.col-lg-10.m-auto
@@ -73,8 +73,8 @@
         span Objetivo de control de la norma ISO/IEC 27001:2013.
       .col-auto
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/7.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los objetivos de control de la Norma ISO/IEC 27001-2013.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/9.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los objetivos de control de la Norma ISO/IEC 27001-2013.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/7b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los objetivos de control de la Norma ISO/IEC 27001-2013.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/9b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los objetivos de control de la Norma ISO/IEC 27001-2013.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
       .col.d-none.d-xl-block
         figure
@@ -101,8 +101,8 @@
           span Ejemplo de controles de la norma ISO/IEC 27001:2013.
 
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/11.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los controles de la Norma ISO/IEC 27001-2013.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/12.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los controles de la Norma ISO/IEC 27001-2013.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/11b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los controles de la Norma ISO/IEC 27001-2013.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/12b.svg" data-aos="zoom-in-up" alt="La imagen presenta un ejemplo de los controles de la Norma ISO/IEC 27001-2013.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     p.mt-5(data-aos="fade-up") Los dominios de seguridad que propone esta norma se encuentran estructurados de acuerdo a los componentes y elementos más relevantes para el mejoramiento de los activos de información y estos proponen los siguientes objetivos de control:
@@ -114,20 +114,20 @@
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
           h5 Figura 5.
-          span A5 Política para la seguridad de la información.
+          span A.5 Política para la seguridad de la información.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/14.svg" data-aos="zoom-in-up" alt="La imagen presenta la Política para la seguridad de la información, la cual se compone de la orientación de la dirección para la gestión de la seguridad de la información y esta a su vez de la política para la seguridad de la información y la revisión de las políticas para la seguridad de la información.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/15.svg" data-aos="zoom-in-up" alt="La imagen presenta la Política para la seguridad de la información, la cual se compone de la orientación de la dirección para la gestión de la seguridad de la información y esta a su vez de la política para la seguridad de la información y la revisión de las políticas para la seguridad de la información.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/14b.svg" data-aos="zoom-in-up" alt="La imagen presenta la Política para la seguridad de la información, la cual se compone de la orientación de la dirección para la gestión de la seguridad de la información y esta a su vez de la política para la seguridad de la información y la revisión de las políticas para la seguridad de la información.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/15b.svg" data-aos="zoom-in-up" alt="La imagen presenta la Política para la seguridad de la información, la cual se compone de la orientación de la dirección para la gestión de la seguridad de la información y esta a su vez de la política para la seguridad de la información y la revisión de las políticas para la seguridad de la información.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
         p.mt-5(data-aos="fade-up" style="position:relative") Uno de los factores importantes en una organización es brindar las directrices para identificar y mantener seguros los activos de información, en la figura No. 6, podremos consultar los objetivos de control para la #[strong organización de la seguridad de la información.]
 
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 6.
-          span A6 Organización de la seguridad de la información.
+          span A.6 Organización de la seguridad de la información.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/16.svg" data-aos="zoom-in-up" alt="La imagen presenta la organización de la seguridad d ela información, la cual está compuesta por la organización interna y los dispositivos móviles y teletrabajo.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/17.svg" data-aos="zoom-in-up" alt="La imagen presenta la organización de la seguridad d ela información, la cual está compuesta por la organización interna y los dispositivos móviles y teletrabajo.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/16b.svg" data-aos="zoom-in-up" alt="La imagen presenta la organización de la seguridad d ela información, la cual está compuesta por la organización interna y los dispositivos móviles y teletrabajo.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/17b.svg" data-aos="zoom-in-up" alt="La imagen presenta la organización de la seguridad d ela información, la cual está compuesta por la organización interna y los dispositivos móviles y teletrabajo.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota: Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .row.mt-5
@@ -140,22 +140,22 @@
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
         h5 Figura 7.
-        span A7 Seguridad de los recursos humanos.
+        span A.7 Seguridad de los recursos humanos.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/19a.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de los recursos humanos, la cual comprende: antes de asumir el empleo, durante la vigencia del empleo, y la terminación o cambio de empleo.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/19b.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de los recursos humanos, la cual comprende: antes de asumir el empleo, durante la vigencia del empleo, y la terminación o cambio de empleo.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/19a2.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de los recursos humanos, la cual comprende: antes de asumir el empleo, durante la vigencia del empleo, y la terminación o cambio de empleo.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/19b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de los recursos humanos, la cual comprende: antes de asumir el empleo, durante la vigencia del empleo, y la terminación o cambio de empleo.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-secundario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;")
-      p.mb-0(data-aos="fade-up") La gestión de activos de información cobra vital importancia dado que estos deben mantenerse identificados, clasificados y salvaguardados; en la figura No 8. encontramos los objetivos de control que establecen los #[strong controles necesarios para gestionar estos activos.]
+      p.mb-0(data-aos="fade-up") La gestión de activos de información cobra vital importancia dado que estos deben mantenerse identificados, clasificados y salvaguardados; en la figura No. 8 encontramos los objetivos de control que establecen los #[strong controles necesarios para gestionar estos activos.]
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
         h5 Figura 8.
-        span A8 Gestión de activos.
+        span A.8 Gestión de activos.
       figure(style="position:relative")
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/21.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de activos, los cuales están compuestos por la responsabilidad por los activos, la clasificación de la información y el manejo de los medios.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/22.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de activos, los cuales están compuestos por la responsabilidad por los activos, la clasificación de la información y el manejo de los medios.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/21b.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de activos, los cuales están compuestos por la responsabilidad por los activos, la clasificación de la información y el manejo de los medios.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/22b.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de activos, los cuales están compuestos por la responsabilidad por los activos, la clasificación de la información y el manejo de los medios.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .mt-5.cont_2_2(style="position:relative;")
@@ -165,10 +165,10 @@
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
           h5 Figura 9.
-          span A9 Control de acceso.
+          span A.9 Control de acceso.
         figure(style="position:relative")
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/24.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/25.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/24b.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/25b.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota: Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .row.mt-5
@@ -176,15 +176,15 @@
         figure
           img(src="@/assets/curso/tema2/26.svg" data-aos="fade-right")
       .col(style="place-self:center")
-        p.mb-0(data-aos="fade-up") Para proteger la información de ser accedida por personas o sistemas no autorizados, se recomienda el uso de #[strong sistemas y técnicas de criptografía] con el fin de garantizar la confidencialidad e integridad de los mismos, en la figura No.10 podremos encontrar los controles sugeridos por la norma.
+        p.mb-0(data-aos="fade-up") Para proteger la información de ser accedida por personas o sistemas no autorizados, se recomienda el uso de #[strong sistemas y técnicas de criptografía] con el fin de garantizar la confidencialidad e integridad de los mismos, en la figura No. 10 podremos encontrar los controles sugeridos por la norma.
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0(style="position:relative")
         h5 Figura 10.
-        span A10 Criptografía.
+        span A.10 Criptografía.
       figure(style="position:relative")
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/27.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/28.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/27b.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/28b.svg" data-aos="zoom-in-up" alt="La imagen presenta el control de acceso, el cual está compuesto por el requisito del negocio para el control del acceso, la gestión de acceso de usuarios, las responsabilidades de los usuarios y el control de acceso a sistemas y aplicaciones.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .mt-5.cont_2_3(style="position:relative;")
@@ -200,15 +200,15 @@
           img.d-block.d-lg-none(src="@/assets/curso/tema2/31.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad física y del entorno, la cual la componen las áreas seguras y los equipos.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
-    p.mt-5(data-aos="fade-up") El riesgo de que una organización sea afectada por un incidente es permanente, cada día se presentan nuevas amenazas que pueden interrumpir o dañar los activos de información de la organización, por ello, en la figura No 12 se presentan algunos controles sugeridos para reducir este tipo de riesgos.
+    p.mt-5(data-aos="fade-up") El riesgo de que una organización sea afectada por un incidente es permanente, cada día se presentan nuevas amenazas que pueden interrumpir o dañar los activos de información de la organización, por ello, en la figura No. 12 se presentan algunos controles sugeridos para reducir este tipo de riesgos.
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
         h5 Figura 12.
-        span A12 Seguridad de las operaciones.
+        span A.12 Seguridad de las operaciones.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/32b.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las operaciones, la cual está compuesta por los procedimientos operacionales y responsabilidades, la protección contra códigos maliciosos, las copias de respaldo, el registro y seguimiento, el control de software operacional, la gestión de la vulnerabilidad técnica y las consideraciones sobre auditorías de sistemas de información.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/33b.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las operaciones, la cual está compuesta por los procedimientos operacionales y responsabilidades, la protección contra códigos maliciosos, las copias de respaldo, el registro y seguimiento, el control de software operacional, la gestión de la vulnerabilidad técnica y las consideraciones sobre auditorías de sistemas de información.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/32b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las operaciones, la cual está compuesta por los procedimientos operacionales y responsabilidades, la protección contra códigos maliciosos, las copias de respaldo, el registro y seguimiento, el control de software operacional, la gestión de la vulnerabilidad técnica y las consideraciones sobre auditorías de sistemas de información.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/33b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las operaciones, la cual está compuesta por los procedimientos operacionales y responsabilidades, la protección contra códigos maliciosos, las copias de respaldo, el registro y seguimiento, el control de software operacional, la gestión de la vulnerabilidad técnica y las consideraciones sobre auditorías de sistemas de información.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .cajon.color-secundario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;")
@@ -217,10 +217,10 @@
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
         h5 Figura 13.
-        span A13 Seguridad de las comunicaciones.
+        span A.13 Seguridad de las comunicaciones.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/34.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las comunicaciones, la cual está compuesta por la gestión de la seguridad de las redes y la transferencia de la información.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/35.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las comunicaciones, la cual está compuesta por la gestión de la seguridad de las redes y la transferencia de la información.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/34b.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las comunicaciones, la cual está compuesta por la gestión de la seguridad de las redes y la transferencia de la información.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/35b.svg" data-aos="zoom-in-up" alt="La imagen presenta la seguridad de las comunicaciones, la cual está compuesta por la gestión de la seguridad de las redes y la transferencia de la información.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
 
@@ -234,10 +234,10 @@
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 14.
-          span A14 Adquisición desarrollo y manteniendo de sistemas.
+          span A.14 Adquisición,desarrollo y manteniendo de sistemas.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/38b.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/39b.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/38b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/39b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     p.mt-5(data-aos="fade-up") La relación con los proveedores de productos o servicios en la organización, debe estar alineada con las políticas de seguridad, y para este caso, en la figura No. 15 encontramos algunos controles sugeridos para asegurar un apropiado intercambio de información con sus proveedores.
@@ -245,10 +245,10 @@
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
         h5 Figura 15.
-        span A15 Relaciones con los proveedores.
+        span A.15 Relaciones con los proveedores.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/40.svg" data-aos="zoom-in-up" alt="La imagen presenta las relaciones con los proveedores, donde se encuentra la seguridad de la información en las relaciones con los proveedores y la gestión de la prestación de servicios de proveedores.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/41.svg" data-aos="zoom-in-up" alt="La imagen presenta las relaciones con los proveedores, donde se encuentra la seguridad de la información en las relaciones con los proveedores y la gestión de la prestación de servicios de proveedores.")
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/40b.svg" data-aos="zoom-in-up" alt="La imagen presenta las relaciones con los proveedores, donde se encuentra la seguridad de la información en las relaciones con los proveedores y la gestión de la prestación de servicios de proveedores.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/41b.svg" data-aos="zoom-in-up" alt="La imagen presenta las relaciones con los proveedores, donde se encuentra la seguridad de la información en las relaciones con los proveedores y la gestión de la prestación de servicios de proveedores.")
       figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     .col-lg-10.m-auto.mt-5
@@ -257,35 +257,35 @@
 
       .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
         h5 Figura 16.
-        span A16 Gestión de incidentes de seguridad de la información.
+        span A.16 Gestión de incidentes de seguridad de la información.
       figure
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/42.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de incidentes de seguridad de la información, el cual se compone de la gestión de incidentes y mejoras en la seguridad de la información.")
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/43.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de incidentes de seguridad de la información, el cual se compone de la gestión de incidentes y mejoras en la seguridad de la información.")
-      figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/42b.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de incidentes de seguridad de la información, el cual se compone de la gestión de incidentes y mejoras en la seguridad de la información.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema2/43b.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de incidentes de seguridad de la información, el cual se compone de la gestión de incidentes y mejoras en la seguridad de la información.")
+      figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 - Anexo A
 
     .mt-5.cont_2_5(style="position:relative;")
       p(data-aos="fade-up" style="position:relative") Garantizar la continuidad del negocio es un factor importante tras sufrir un incidente, por ello se presentan en la figura No. 17, los controles que garanticen que la organización podrá recuperarse en un mínimo tiempo, con una mínima pérdida de información.
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 17.
-          span A17 Aspectos de seguridad de la información de la gestión de continuidad de negocio.
+          span A.17 Aspectos de seguridad de la información de la gestión de continuidad de negocio.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/45.svg" data-aos="zoom-in-up" alt="La imagen presenta los aspectos de la seguridad de la información de la gestión de continuidad de negocio, comprendiendo la continuidad de seguridad de la información y las redundancias.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/46.svg" data-aos="zoom-in-up" alt="La imagen presenta los aspectos de la seguridad de la información de la gestión de continuidad de negocio, comprendiendo la continuidad de seguridad de la información y las redundancias.")
-        figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/45b.svg" data-aos="zoom-in-up" alt="La imagen presenta los aspectos de la seguridad de la información de la gestión de continuidad de negocio, comprendiendo la continuidad de seguridad de la información y las redundancias.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/46b.svg" data-aos="zoom-in-up" alt="La imagen presenta los aspectos de la seguridad de la información de la gestión de continuidad de negocio, comprendiendo la continuidad de seguridad de la información y las redundancias.")
+        figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 - Anexo A
       .row.mt-5(style="position:relative")
         .col-auto(style="place-self:center")
           figure
             img(src="@/assets/curso/tema2/47.svg" data-aos="fade-right")
         .col(style="place-self:center")
-          p.mb-0(data-aos="fade-up") Finalmente, el cumplimiento de los requisitos legales garantiza el actuar de la organización, y evitan incurrir en alguna falta que afecte en un futuro la organización, por ello, en la figura No 18 se presentan los controles de cumplimiento que buscan reducir los riesgos al incurrir en una falta relacionada.
+          p.mb-0(data-aos="fade-up") Finalmente, el cumplimiento de los requisitos legales garantiza el actuar de la organización, y evitan incurrir en alguna falta que afecte en un futuro la organización, por ello, en la figura No. 18 se presentan los controles de cumplimiento que buscan reducir los riesgos al incurrir en una falta relacionada.
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 18.
-          span A18 Cumplimiento.
+          span A.18 Cumplimiento.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/48a.svg" data-aos="zoom-in-up" alt="La imagen presenta el cumplimiento, el cual está compuesto por el cumplimiento de los requisitos legales y contractuales y las revisiones de seguridad de la información.")
-          img.d-block.d-lg-none(src="@/assets/curso/tema2/48b.svg" data-aos="zoom-in-up" alt="La imagen presenta el cumplimiento, el cual está compuesto por el cumplimiento de los requisitos legales y contractuales y las revisiones de seguridad de la información.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/48c.svg" data-aos="zoom-in-up" alt="La imagen presenta el cumplimiento, el cual está compuesto por el cumplimiento de los requisitos legales y contractuales y las revisiones de seguridad de la información.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/48d.svg" data-aos="zoom-in-up" alt="La imagen presenta el cumplimiento, el cual está compuesto por el cumplimiento de los requisitos legales y contractuales y las revisiones de seguridad de la información.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
     p.mt-5(data-aos="fade-up") Estos objetivos de control en profundidad pueden ser consultados en la Norma ISO/IEC 27001:2013 – Anexo A para identificar aspectos más en profundidad sobre los controles de seguridad.
@@ -332,15 +332,15 @@
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Sí
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") El contar con la política de seguridad de la información de un punto de partida para la implementación en la organización.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Alta gerencia
-            td.p-4(style="border:0;") La alta dirección de la Superintendencia de la sociedades aprobó la política de gestión integral y se ha comunicado a todos los funcionarios y las partes externas pertinentes a través de correo electrónico, intranet e internet.
+            td.p-4(style="border:0;") La alta dirección de la Superintendencia de Sociedades aprobó la política de gestión integral y se ha comunicado a todos los funcionarios y las partes externas pertinentes a través de correo electrónico, intranet e internet.
           tr(style="background-color:#D1F1F6;")
             td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") A.5.1.2
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Revisión de las políticas para la seguridad de la información.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Se debe revisar la política de seguridad de la información a intervalos planificados, o si ocurren cambios significativos, para asegurar su conveniencia, suficiencia y eficacia continuas.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Sí
-            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") De acuerdo al ciclo PHVA se debe programas periodos de evaluación de la política de seguridad de la información la cual permite implementar mejoras permanentes.
+            td.p-4(style="border:0;border-right:1px #AFAFAF solid;") De acuerdo al ciclo PHVA se debe programar periodos de evaluación de la política de seguridad de la información la cual permite implementar mejoras permanentes.
             td.p-4(style="border:0;border-right:1px #AFAFAF solid;") Alta gerencia
-            td.p-4(style="border:0;") La alta dirección de la Superintendencia de la sociedad realiza a intervalos planificados la revisión al sistema de gestión integrado en el proceso de gestión estratégica donde las salidas reflejan cambios a la política de gestión integral.
+            td.p-4(style="border:0;") La alta dirección de la Superintendencia de Sociedades realiza a intervalos planificados la revisión al sistema de gestión integrado en el proceso de gestión estratégica donde las salidas reflejan cambios a la política de gestión integral.
 
     .col-lg-10.m-auto.mt-5
       p.mb-0(data-aos="fade-up") Para el establecimiento de la declaración de aplicabilidad en una organización, esta debe ser diligenciada en su totalidad, realizando el registro de todos y cada uno de los controles establecidos por la norma, indicando cuáles serán aplicables en la organización, cuáles no y su razón de no aplicabilidad, así como la forma en que será aplicable hacia los activos de información, de esta manera permitirá a las partes interesadas identificar los controles que serán aplicados y evaluados.

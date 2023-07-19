@@ -196,7 +196,7 @@ export default {
     {
       termino: 'Activo de información',
       significado:
-        'Componente o funcionalidad de un sistema de información susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización. Incluye: información, datos, servicios, aplicaciones (software), equipos (hardware), comunicaciones, recursos administrativos, recursos físicos y recursos humanos (MAGERIT,2012).',
+        'Componente o funcionalidad de un sistema de información susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización. Incluye: información, datos, servicios, aplicaciones (<em>software</em>), equipos (<em>hardware</em>), comunicaciones, recursos administrativos, recursos físicos y recursos humanos (MAGERIT,2012).',
     },
     {
       termino: 'Autenticidad',

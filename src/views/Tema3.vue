@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Margerit
+      h1 Magerit
 
     .cont_3_1(style="position:relative")
       figure(style="position:relative")
@@ -62,7 +62,7 @@
       .row.mt-5.col-lg-10.m-auto
         .col-lg-8.mb-4.mb-lg-0(style="place-self:center;position:relative")
           p(data-aos="fade-up") El procedimiento de análisis de riesgos se puede desarrollar en cualquier tipo de organización que desarrolle sus funciones apoyado en sistemas de información y comunicaciones, independiente del sector bien sea público o privado, y se recomienda realizarlo con mayor razón cuando se manejan datos confidenciales.
-          p.mt-4(data-aos="fade-up") Los pasos generales para desarrollar un análisis de riesgos, relacionados con la seguridad informática, se evidencian en el siguiente video títulado Procedimiento de Análisis de Riesgos:
+          p.mt-4(data-aos="fade-up") Los pasos generales para desarrollar un análisis de riesgos, relacionados con la seguridad informática, se evidencian en el siguiente video titulado Procedimiento de Análisis de Riesgos - Pasos:
         .col-lg-4(style="place-self:center;position:relative")
           figure(style="position:relative")
             img(src="@/assets/curso/tema3/8.png" data-aos="fade-left")
@@ -149,7 +149,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Causados de forma accidental
-            p Originados por personas generalmente por error o omisión, pueden ser errores sistemáticos y errores accidentales.
+            p Originados por personas generalmente por error u omisión, pueden ser errores sistemáticos y errores accidentales.
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/19.png')
@@ -163,7 +163,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Identificación y tipificación de activos
-            p Una vez se haya realizado la identificación de las amenazas, se procede a realizar la valoración de las mismas, y se requiere identificar cual sería el efecto de influencia sobre el activo.
+            p Una vez se haya realizado la identificación de las amenazas, se procede a realizar la valoración de las mismas, y se requiere identificar cuál sería el efecto de influencia sobre el activo.
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/21.png')
@@ -177,7 +177,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
             h5(style="color:#36257B;") Probabilidad
-            p Que tan probable es que una amenaza sea aprovechada y se materializarse un riesgo.
+            p Qué tan probable es que una amenaza sea aprovechada y se materialice en un riesgo.
           .col-lg-6(style="place-self:center")
             figure
               img(src='@/assets/curso/tema3/23.png')
@@ -286,7 +286,7 @@
             | Este impacto, permitirá identificar las consecuencias que tendría una afectación y cómo afectaría a la organización directamente.
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            | El impacto potencial, se puede clasificar de la siguiente manera.
+            | El impacto potencial, se puede clasificar de la siguiente manera:
         .mt-4.bg-white.p-4
           p(data-aos="fade-up") #[strong Impacto acumulado:]
           ul.lista-ul--color.mt-3
@@ -308,7 +308,7 @@
             li.mb-0(data-aos="fade-up")
               i.lista-ul__vineta
               | El impacto de una amenaza se puede agregar en diferentes dimensiones.
-          p.mt-4(data-aos="fade-up") #[strong Impacto repercutido:] Se puede aplicar sobre activos de diferente tipo y se determina sobre un activo partir de:
+          p.mt-4(data-aos="fade-up") #[strong Impacto repercutido:] se puede aplicar sobre activos de diferente tipo y se determina sobre un activo partir de:
           ul.lista-ul--color.mt-3
             li.mb-0(data-aos="fade-up")
               i.lista-ul__vineta
@@ -406,7 +406,7 @@
         ul.lista-ul
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
-            span Se puede agregar el riesgo repercutido a diferentes activos,
+            span Se puede agregar el riesgo repercutido a diferentes activos.
           li.mb-0(data-aos="fade-up")
             i.fas.fa-circle(style="color:#1DBBD2;font-size:6px;")
             span Se puede agregar el impacto acumulado sobre activos que no sean dependientes entre sí, y no hereden valor de un activo superior común.
@@ -451,7 +451,7 @@
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [PR] Prevención
                 td.p-4(style="border:0")
                   p Salvaguardas preventivas que reducen las oportunidades de que un incidente ocurra. Si la salvaguarda falla y el incidente llega a ocurrir, los daños son los mismos.
-                  p.mt-4 #[strong Ejemplos:] autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de software, pruebas en preproducción, segregación de tareas.
+                  p.mt-4 #[strong Ejemplos:] autorización previa de los usuarios, gestión de privilegios, planificación de capacidades, metodología segura de desarrollo de #[em software], pruebas en preproducción, segregación de tareas.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [DR] Disuasión
                 td.p-4(style="border:0;")
@@ -460,7 +460,7 @@
               tr(style="background-color:#fff;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [EL] Eliminación
                 td.p-4(style="border:0")
-                  p Son salvaguardas que eliminan un incidente, impidiendo que tenga lugar, lo que significa que actúan antes que el incidente se haya producido. No reducen los daños en caso que la salvaguarda no sea perfecta y el incidente llegue a ocurrir.
+                  p Son salvaguardas que eliminan un incidente, impidiendo que tenga lugar, lo que significa que actúan antes que el incidente se haya producido. No reducen los daños en caso de que la salvaguarda no sea perfecta y el incidente llegue a ocurrir.
                   p.mt-4 #[strong Ejemplos:] eliminación de cuentas estándar o sin contraseña y de servicios innecesarios, y en general, todo lo que tenga que ver con la fortificación o bastionado, cifrado de información y armarios ignífugos.
               tr(style="background-color:#D1F1F6;")
                 td.p-4(style="border:0;font-weight:bold;border-right:1px #AFAFAF solid;") [IM] Minimización del impacto / limitación del impacto
@@ -498,7 +498,7 @@
                   p Son salvaguardas relacionadas con los componentes de seguridad del sistema.
                   p.mt-4 #[strong Ejemplos:] inventario de activos, análisis de riesgos, plan de continuidad.
 
-        p.my-5(data-aos="fade-up" style="position:relative") De acuerdo al modelo anterior, Podremos determinar y agrupas las salvaguardas de acuerdo a su efecto sobre una amenaza, como se puede identificar en la tabla No 5.
+        p.my-5(data-aos="fade-up" style="position:relative") De acuerdo al modelo anterior, podremos determinar y agrupar las salvaguardas de acuerdo a su efecto sobre una amenaza, como se puede identificar en la tabla No. 5.
 
         .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
           h5 Tabla 5.
@@ -520,7 +520,7 @@
                 td.p-4.text-center(style="border:0;") [IM] minimizadoras #[br] [CR] correctivas #[br] [RC] recuperativas
               tr(style="background-color:#D1F1F6;")
                 td.p-4.text-center(style="border:0;border-right:1px #AFAFAF solid;") Consolidan el efecto de las demás
-                td.p-4.text-center(style="border:0") MN] de monitorización #[br] [DC] de detección #[br] [AW] de concienciación #[br] [AD] administrativas
+                td.p-4.text-center(style="border:0") [MN] de monitorización #[br] [DC] de detección #[br] [AW] de concienciación #[br] [AD] administrativas
 
     .col-xl-10.col-lg-12.col-md-12.m-auto.mt-5
       p(data-aos="fade-up") Las salvaguardas también por la eficacia en el momento de actuar frente al riesgo para el cual fueron consideradas, una salvaguarda adecuada en 100 % eficaz si combina los siguientes factores:

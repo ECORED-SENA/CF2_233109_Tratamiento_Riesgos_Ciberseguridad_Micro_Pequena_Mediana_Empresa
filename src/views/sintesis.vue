@@ -8,7 +8,7 @@
     .cajon.color-secundario.p-4.mt-5.col-lg-10.m-auto(style="background-color:#D5CEF8;")
       p.mb-0(data-aos="fade-up") La importancia de adoptar metodologías y técnicas para estos procesos de evaluación del riesgo nos permite mantener una línea estándar para el desarrollo de las actividades y revisión de manera sistémica, así como la revisión periódica para su mejoramiento.
 
-    p.mt-5(data-aos="fade-up") Así mismo, hemos visto como la identificación de las salvaguardas adecuadas para la gestión de estos riesgos, tomando como referentes normas internacionales, normas técnicas y buenas prácticas, permite mantener un nivel mínimo aceptable para afrontar los diferentes problemas que presentan las organizaciones.
+    p.mt-5(data-aos="fade-up") Así mismo, hemos visto cómo la identificación de las salvaguardas adecuadas para la gestión de estos riesgos, tomando como referentes normas internacionales, normas técnicas y buenas prácticas, permite mantener un nivel mínimo aceptable para afrontar los diferentes problemas que presentan las organizaciones.
 
     .row.justify-content-center.mt-5
       .col-lg-10.mb-5
