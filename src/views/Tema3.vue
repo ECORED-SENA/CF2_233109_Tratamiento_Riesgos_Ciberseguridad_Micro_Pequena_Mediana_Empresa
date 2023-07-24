@@ -57,7 +57,7 @@
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/7Omq8brpg5A" title="Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.mt-3.position-relative Video. Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información)
+        figcaption.position-relative Video. Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información)
 
       .row.mt-5.col-lg-10.m-auto
         .col-lg-8.mb-4.mb-lg-0(style="place-self:center;position:relative")
