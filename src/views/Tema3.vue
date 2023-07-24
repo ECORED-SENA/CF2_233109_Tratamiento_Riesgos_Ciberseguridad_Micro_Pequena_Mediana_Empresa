@@ -56,7 +56,7 @@
     .cont_3_2.mt-5(style="position:relative")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/sAyLsjxgIrc" title="Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/7Omq8brpg5A" title="Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.mt-3.position-relative Video. Magerit (Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información)
 
       .row.mt-5.col-lg-10.m-auto
@@ -69,8 +69,8 @@
 
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/xN6gIERrcTU" title="Procedimiento de Análisis de Riesgos -Pasos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.mt-3.position-relative Video. Procedimiento de Análisis de Riesgos - Pasos
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/mDjAMgr72Z4" title="Procedimiento de Análisis de Riesgos -Pasos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.position-relative Video. Procedimiento de Análisis de Riesgos - Pasos
 
     Separador.mt-5
 
