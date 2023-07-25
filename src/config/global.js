@@ -149,6 +149,11 @@ export default {
         download: 'downloads/233109_CF02_DU.pdf',
       },
       {
+        icono: 'fas fa-download',
+        titulo: 'Descargar HTML',
+        download: 'downloads/material.zip',
+      },
+      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
