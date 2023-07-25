@@ -165,7 +165,7 @@ export default {
       referencia:
         'Escorial Bonet, Á., Escalera Alcázar, J. & Simón Quintana, S. (2019). <em>Guía para la aplicación de UNE-ISO 31000:2018. AENOR - Asociación Española de Normalización y Certificación.</em>',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/118154 ',
+        'https://www.riskia.com/Files/archivos/noticias/9788481439700_extracto.pdf',
     },
     {
       referencia:
@@ -188,8 +188,7 @@ export default {
     {
       referencia:
         'Tamayo Saborit, M. & González Capote, D. (2020). <em>La gestión de riesgos: herramienta estratégica de gestión empresarial.</em> Editorial Universo Sur.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/131885',
+      link: 'https://allspace.ucf.edu.cu/index.php/s/cNBoWzkwp32R8A4',
     },
   ],
   glosario: [
