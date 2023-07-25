@@ -234,9 +234,9 @@
       .col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido.mb-0.mt-5(style="position:relative")
           h5 Figura 14.
-          span A.14 Adquisición,desarrollo y manteniendo de sistemas.
+          span A.14 Adquisición, desarrollo y manteniendo de sistemas.
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema2/38b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/38b3.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
           img.d-block.d-lg-none(src="@/assets/curso/tema2/39b2.svg" data-aos="zoom-in-up" alt="La imagen presenta la adquisición, desarrollo y mantenimiento de sistemas, el cual está compuesto por los requisitos de seguridad de los sistemas de información, seguridad en los procesos de desarrollo y soporte y datos de prueba.")
         figcaption(style="background-color:#F6F6F6;font-weight:400;position:relative") Nota. Adaptada de ISO/IEC 27001:2013 – Anexo A
 
