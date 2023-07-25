@@ -240,8 +240,8 @@ export default {
     {
       tema: '2. Controles de seguridad',
       referencia:
-        'Fernández Rivero, P. P. y Gómez Fernández, L. (2018). <em>Cómo implantar un SGSI según UNE-EN ISO/IEC 27001 y su aplicación en el Esquema Nacional de Seguridad.</em> AENOR - Asociación Española de Normalización y Certificación. (p. 36-57).',
-      tipo: 'Libros digitales',
+        'Fernández Rivero, P. P. y Gómez Fernández, L. (2018). <em>Cómo implantar un SGSI según UNE-EN ISO/IEC 27001 y su aplicación en el Esquema Nacional de Seguridad.</em> AENOR - Asociación Española de Normalización y Certificación.',
+      tipo: 'Artículo web',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/53624?page=36',
     },
